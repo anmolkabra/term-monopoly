@@ -1,0 +1,2928 @@
+commit 5535751196ca8306e073c655911a9a2ae8ab8d8a
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 16:05:04 2017 -0500
+
+    update final zip
+
+ finalsrc.zip | Bin 46236 -> 46069 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 5dd3d3d389444ec10ebde7e2a8347810ad2123d8
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 15:33:14 2017 -0500
+
+    formatting and specs
+
+ gui.ml | 102 +++++++++++++++++++++++++++--------------------------------------
+ 1 file changed, 42 insertions(+), 60 deletions(-)
+
+commit 35cad6d5b0908646fed21c81b377fb4011cb76c4
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 15:17:00 2017 -0500
+
+    formattting and updating some specs, removing redundant ones that also are in mli
+
+ gui.ml | 126 +++++++++++++++++++++++++++--------------------------------------
+ 1 file changed, 52 insertions(+), 74 deletions(-)
+
+commit b38af16d0d7f76d683667aae3fc3d0e765e23f94
+Merge: c72204f 0656fe8
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 14:59:46 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 0656fe80616ded90e0e1896ec237a3ce9d2a34a7
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 14:59:25 2017 -0500
+
+    testing zip
+
+ finalsrc.zip | Bin 0 -> 46236 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c72204fac29bf5062319da15f11b04bd9c2ac8fd
+Merge: b50ca7e d502ffb
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 14:59:02 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit b50ca7ef4f902e32254eac77eb35df676b762708
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 14:58:39 2017 -0500
+
+    updated specs
+
+ gui.mli | 49 +++++++++++++++++++++++++++----------------------
+ 1 file changed, 27 insertions(+), 22 deletions(-)
+
+commit d502ffb1760cec69ccf333b34cd71bdc1156203c
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Thu Dec 7 14:54:01 2017 -0500
+
+    trade
+
+ controllers.ml | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 70a1cd0f14a51676ce3bb679ac68451691e8eef0
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 14:50:33 2017 -0500
+
+    added delay back to gui
+
+ gui.ml | 104 ++++++++++++++++++++++++++++++++---------------------------------
+ 1 file changed, 52 insertions(+), 52 deletions(-)
+
+commit b0409ccd07e0542cfafaef7978d9f38ba7af8089
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Thu Dec 7 14:48:55 2017 -0500
+
+    trade offer
+
+ controllers.ml | 2 +-
+ gui.ml         | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit b5dc6cfbd2bc79043acc66e20f55ffcae1c35ffb
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Thu Dec 7 14:40:12 2017 -0500
+
+    ai3
+
+ controllers.ml | 48 +++++++++++++++++++++++++++++++++++++-----------
+ 1 file changed, 37 insertions(+), 11 deletions(-)
+
+commit 7501a3e4f7dc0c9db39b85e4f6777f9b36515bcb
+Merge: 388fe24 fe91b87
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 14:37:44 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 388fe240c407aeaafd51a1c4866c125de6f20547
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 14:37:39 2017 -0500
+
+    corrected error of trying to decrement railroad property values while selling
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit fe91b8705bdfefce47a4fdd4b4841ecca2a180bd
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 14:28:15 2017 -0500
+
+    updated with specific commands
+
+ README.md  |  1 +
+ README.txt | 12 ++++++++----
+ 2 files changed, 9 insertions(+), 4 deletions(-)
+
+commit a8f6ed98042a44fb420cfd7e61bad0500d5b2a5d
+Merge: ff4c101 897220b
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 14:21:32 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit ff4c101a4561b7753f0126e67a2c73b02076628f
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 14:21:23 2017 -0500
+
+    updated makefile with make install-dep to install dependencies
+
+ Makefile | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 897220be6677e782d15eca6fd1de0ee9c9709e65
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Thu Dec 7 14:20:08 2017 -0500
+
+    ai3
+
+ controllers.ml | 28 +++++++++++++++++-----------
+ 1 file changed, 17 insertions(+), 11 deletions(-)
+
+commit f211f1f58b308c01858a2930952d92e8c8a31a58
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 14:09:30 2017 -0500
+
+    finished documenting my end
+
+ gui.ml | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+commit 089652f6197da8166677185aaf85ad0d932cc2b9
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 14:06:33 2017 -0500
+
+    Updated specifications for methods
+
+ gui.ml | 35 +++++++++++++++++++++++++++++------
+ 1 file changed, 29 insertions(+), 6 deletions(-)
+
+commit 7d2bcbf45c8961e564be828164a71a60ee170e48
+Merge: fdcb7d8 05f2eac
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 14:03:12 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 05f2eacbd10a23f8599a9fe616366129edc6a220
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Thu Dec 7 14:01:47 2017 -0500
+
+    controller develop
+
+ controllers.ml | 113 +++++++++++++++++++++++++++++++++++++--------------------
+ 1 file changed, 73 insertions(+), 40 deletions(-)
+
+commit fdcb7d8a1fd0f0edb41fa2286d625ba198cb56f3
+Merge: 3dd308b 11f517b
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 14:01:38 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 3dd308b94c935fc5694448eadac70f3365600362
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 14:01:25 2017 -0500
+
+    make zip works now. It zips all that is necessary
+
+ Makefile       | 5 +----
+ finalzipper.sh | 1 +
+ 2 files changed, 2 insertions(+), 4 deletions(-)
+
+commit 11f517bc39e20b3080d16b7bc4bda2942231f0af
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 13:50:43 2017 -0500
+
+    Rearrangement of methods still
+
+ gui.ml | 202 ++++++++++++++++++++++++++++++++---------------------------------
+ 1 file changed, 101 insertions(+), 101 deletions(-)
+
+commit 0bc40956a57cc3c62ad7c63e6c9c8f87c4311aed
+Merge: cdbadd7 90feacc
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 13:46:24 2017 -0500
+
+    merge conflict fixed
+
+commit cdbadd74fa566df8aa3f40680744ac1b1051d15a
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 13:43:51 2017 -0500
+
+    rearranging methods in file
+
+ gui.ml | 1810 ++++++++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 907 insertions(+), 903 deletions(-)
+
+commit 90feacc5ee5f332104f23d227ed9eacb37e4847a
+Merge: a30bf6d 6e3def4
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 13:42:28 2017 -0500
+
+    fixed merge conflict, things are working yet
+
+commit a30bf6d5c27d18d0eb9e44b7de19e5e660d43559
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 13:40:42 2017 -0500
+
+    added gui.mli, moved specs to mli from ml
+
+ gui.ml  |  46 -------------------------
+ gui.mli | 116 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 116 insertions(+), 46 deletions(-)
+
+commit 6e3def481c70230540ad06028650f2368f22253c
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 13:23:46 2017 -0500
+
+    update make commands and description in README.txt
+
+ Makefile     |   2 +-
+ README.txt   |  10 +++++++++-
+ finalsrc.zip | Bin 0 -> 41133 bytes
+ 3 files changed, 10 insertions(+), 2 deletions(-)
+
+commit 04a9b652bb6132f827e86346a57cc295fb34535e
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 13:18:58 2017 -0500
+
+    wrote README.txt with instructions on how to run the game
+
+ README.txt | 35 +++++++++++++++++++++++++++++++++++
+ 1 file changed, 35 insertions(+)
+
+commit fa6a711b6fa985764c51a06452035f47e8a8276b
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 13:17:13 2017 -0500
+
+    Added help option from human_modal as well as init modal
+
+ gui.ml | 32 ++++++++++++++++++++------------
+ 1 file changed, 20 insertions(+), 12 deletions(-)
+
+commit 853b181cf31b56578d86744970fa51ee001b6bd4
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 13:10:37 2017 -0500
+
+    added and tested getter function for the maximum rent of a property
+
+ state.ml      | 12 ++++++++----
+ state.mli     |  5 +++++
+ test_state.ml |  6 ++++++
+ 3 files changed, 19 insertions(+), 4 deletions(-)
+
+commit 5be0f098782c9f0682de434f52d5f910aa734f0f
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 13:05:59 2017 -0500
+
+    removed main.mli
+
+ main.mli | 20 --------------------
+ 1 file changed, 20 deletions(-)
+
+commit f6dcb63e48e63d4671b6f601de679977a9e1c459
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 13:04:08 2017 -0500
+
+    moved gui into its own file FOR REAL this time
+
+ gui.ml | 1548 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1548 insertions(+)
+
+commit 0399e5be6efe639363807ec56785c06364d1760a
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 13:03:19 2017 -0500
+
+    moved gui into its own file
+
+ main.ml | 1548 +--------------------------------------------------------------
+ 1 file changed, 1 insertion(+), 1547 deletions(-)
+
+commit 8319322654f5dfec9f6e9ec72f7ad9209ecf4960
+Merge: 601ab70 0f6b1d3
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 12:55:37 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 601ab70a004be0676160861d1561c4ce80887b7a
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 12:55:16 2017 -0500
+
+    added help message
+
+ main.ml | 136 ++++++++++++++++++++++++++++++++++++++++++----------------------
+ 1 file changed, 90 insertions(+), 46 deletions(-)
+
+commit 0f6b1d3dd51d856be16bacd80b7427033fa08e88
+Merge: 69b7ba3 ffdb1f7
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 12:45:41 2017 -0500
+
+    merge
+
+commit 69b7ba35c7eab61cf18f96da28ec86b50f999868
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 12:45:29 2017 -0500
+
+    documenting
+
+ main.ml | 284 ++++++++++++++++++++++++++++++++++++----------------------------
+ 1 file changed, 160 insertions(+), 124 deletions(-)
+
+commit ffdb1f7ece956bdc655e4e696c990405145803e9
+Merge: 07b4194 1f8483c
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 12:39:37 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 07b41943c21e713a9be1ba602e72e310dc398d5f
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 12:39:22 2017 -0500
+
+    Finished writing rules
+
+ help.txt | 32 ++++++++++++++++++++++++++++++++
+ 1 file changed, 32 insertions(+)
+
+commit 1f8483cb9fe30af05f5766deab044fa3418caf5d
+Merge: 537ce91 ac48829
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 12:36:03 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 537ce910e262778f7bc5e984d480ca2db68e6cb0
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 12:35:55 2017 -0500
+
+    added rent and jail free info in moves for human modal
+
+ main.ml | 17 ++++++++++++-----
+ 1 file changed, 12 insertions(+), 5 deletions(-)
+
+commit ac4882995fb784d7a6608b0529b67cd748a470a2
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 12:27:01 2017 -0500
+
+    Working on writing rules for GUI to display. Fixed starting money in test_board so test cases pass
+
+ help.txt        | 45 +++++++++++++++++++++++++++++++++++++++++++++
+ test_board.json |  2 +-
+ 2 files changed, 46 insertions(+), 1 deletion(-)
+
+commit e92fb2a227e5000670964e3f278670a87a28c320
+Merge: 8b7505d eb9a70f
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 12:24:17 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 8b7505d85b61a0e61a3bcfd0e4e66ba905ab452e
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 12:24:06 2017 -0500
+
+    added a property view box in quit moda
+
+ main.ml | 20 ++++++++++++--------
+ 1 file changed, 12 insertions(+), 8 deletions(-)
+
+commit eb9a70f3d3feb051fee44d759cda7c597b93ad1f
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Thu Dec 7 11:59:33 2017 -0500
+
+    ai2
+
+ controllers.ml  | 321 ++++++++++++++++++++++++++++++++++++++++++++++++++------
+ test_board.json |   4 +-
+ 2 files changed, 292 insertions(+), 33 deletions(-)
+
+commit 5eae27ae9d1c23e1e6ea54c34bb454ae233dae34
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 11:47:17 2017 -0500
+
+    Sell property to pay bug fix
+
+ main.ml | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 12b60333bf95f01c8ab55c62caf7b0b349e888c0
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 11:40:02 2017 -0500
+
+    bug during trade
+
+ main.ml | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 62787f2d94607b2dad85c84aebc764be8eb58d91
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 11:19:10 2017 -0500
+
+    Handling transactions properly
+
+ main.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 8f68b10aa41cdb0258e09ce48d659505298fdb46
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Thu Dec 7 11:15:28 2017 -0500
+
+    Added AI3
+
+ main.ml   | 9 +++++++++
+ state.ml  | 2 ++
+ state.mli | 1 +
+ 3 files changed, 12 insertions(+)
+
+commit a0eb0b66cf3a095251fe176cf9d0cc5faa2c20c4
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 05:42:13 2017 -0500
+
+    board based on 3110 schedule
+
+ 3110.json | 254 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 254 insertions(+)
+
+commit 3768e42b1602229c3d0760b2c579aa7f68c1628f
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 04:44:51 2017 -0500
+
+    additional tests for jail and railroads
+
+ test_board_jail.json      | 18 +++++++++++++++
+ test_board_railroads.json | 31 +++++++++++++++++++++++++
+ test_state.ml             | 59 +++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 108 insertions(+)
+
+commit fd02fc56f95930d1513008af844eaf75cd6ed945
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 03:57:13 2017 -0500
+
+    clarifying specification of helper functions in state.ml
+
+ state.ml  | 160 +++++++++++++++++++++++++++++++++++++++++++++++++++++++-------
+ state.mli |   2 +
+ 2 files changed, 146 insertions(+), 16 deletions(-)
+
+commit ffae5e36664620f73c76e13f99cb0e61d8a9de6c
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 02:41:16 2017 -0500
+
+    Updates to spec in state.mli
+
+ state.mli | 35 ++++++++++++++++++++++++-----------
+ 1 file changed, 24 insertions(+), 11 deletions(-)
+
+commit 4ba1924874665dc5fb0abaeae0eea6925845bfbb
+Merge: 94bdd53 e809882
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 02:29:07 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 94bdd5336b1677db364618e81731d2062fb37584
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Dec 7 02:29:04 2017 -0500
+
+    Finished added cards to classic board
+
+ classic.json | 86 ++++++++++++++++++++++++++++++++++++++++++++----------------
+ 1 file changed, 63 insertions(+), 23 deletions(-)
+
+commit e809882b139f69e22a716c1811af16e444c015ae
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 02:28:03 2017 -0500
+
+    cosmetic changes to the modal frames
+
+ main.ml | 27 +++++++++++----------------
+ 1 file changed, 11 insertions(+), 16 deletions(-)
+
+commit 31942d759f04759836d3971d2d4872ff96a85e12
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 02:14:46 2017 -0500
+
+    documenting specs for helper functions up till the main class
+
+ main.ml | 124 ++++++++++++++++++++++++++++++++++++++++++----------------------
+ 1 file changed, 82 insertions(+), 42 deletions(-)
+
+commit 374d6e3061143ad43e9092fc6d1b7403036b80a7
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 01:37:26 2017 -0500
+
+    reordered and factored code
+
+ main.ml | 269 +++++++++++++++++++++++++++++-----------------------------------
+ 1 file changed, 122 insertions(+), 147 deletions(-)
+
+commit 9cf6f0d3b2679d9cb6c26ed67adda071959671fa
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Dec 7 00:49:36 2017 -0500
+
+    cleaning residual types and functions. removed can_focus from scrollable
+
+ main.ml | 35 ++++++++++++++---------------------
+ 1 file changed, 14 insertions(+), 21 deletions(-)
+
+commit 9f59ce1cfc37b99de0cae5a73c9115721e525cc6
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 23:27:11 2017 -0500
+
+    cannot trade money - restricted by gui now. resetting history when resetting data
+
+ main.ml | 10 ++++------
+ 1 file changed, 4 insertions(+), 6 deletions(-)
+
+commit acd51d8608f4c671549e268448462f0099f3e51a
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 23:14:32 2017 -0500
+
+    more accurate history messages
+
+ main.ml | 24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+commit ab56ac0019d7ebf357af7e298f576804d3032d5e
+Merge: e30eb91 fec2279
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Wed Dec 6 22:47:22 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit e30eb91fc81983ba256cefb165cd92b0b55614dc
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Wed Dec 6 22:47:07 2017 -0500
+
+    Chance cards for classic board
+
+ classic.json | 64 ++++++++++++++++++++++++++++++++++++++++++++++++++++++------
+ 1 file changed, 58 insertions(+), 6 deletions(-)
+
+commit fec22791d33340b2cc47cd098c59b12c56ec8151
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 22:38:06 2017 -0500
+
+    changes to the view log, fixing lines that expand default
+
+ main.ml | 40 +++++++++++++++++++++++-----------------
+ 1 file changed, 23 insertions(+), 17 deletions(-)
+
+commit 54ee45f789db6d8b25a1e30928b3aa087ca4a247
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 21:45:10 2017 -0500
+
+    printing what is returned from the controller on the modal
+
+ main.ml | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+
+commit 27cc1cd935885cefe9b650266761fdc7aa599549
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 21:37:33 2017 -0500
+
+    PUSHED CODE BROKE THINGS, fixed
+
+ controllers.ml | 2 +-
+ main.ml        | 6 ++++--
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+
+commit bfebbfa3bcfd6b0bf0c82de2d13828bfb32fc260
+Merge: e924d4f 3f01f97
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 21:34:35 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit e924d4fd5794110066022d6ab712852aab2122f4
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 21:34:24 2017 -0500
+
+    strings for different commands
+
+ main.ml | 43 ++++++++++++++++++++++++-------------------
+ 1 file changed, 24 insertions(+), 19 deletions(-)
+
+commit 3f01f97dbad0007d69f1ae00f36ff2de6fff2f5d
+Merge: f7ad041 8fee3ff
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Wed Dec 6 21:31:57 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit f7ad0412e235becec01a5476ebca1c2441f12172
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Wed Dec 6 21:28:48 2017 -0500
+
+    classic monopoly board (no cards)
+
+ classic.json | 249 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 249 insertions(+)
+
+commit 8fee3ff9da799fe9a66022e8c69a2fa5daa3fabc
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Wed Dec 6 21:27:17 2017 -0500
+
+    controller output command * string
+
+ controllers.ml  | 197 ++++++++++++++++++++++++++++++++++++--------------------
+ controllers.mli |  14 ++--
+ 2 files changed, 135 insertions(+), 76 deletions(-)
+
+commit 4e9b8dc2be6899e158a3ed49410b228b27ef2380
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Wed Dec 6 21:21:26 2017 -0500
+
+    message log preview is now in the human modal
+
+ main.ml | 16 ++++++++++++----
+ 1 file changed, 12 insertions(+), 4 deletions(-)
+
+commit cb83f77847d35a1893a24960d952323e7c87fc8e
+Merge: afc73b6 f333bea
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Wed Dec 6 20:56:34 2017 -0500
+
+    merge conf
+
+commit afc73b6b367ed7cac1e239a1ac42ccd00edf3443
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Wed Dec 6 20:56:21 2017 -0500
+
+    View entire history modal progress
+
+ main.ml | 33 ++++++++++++++++++++++++++-------
+ 1 file changed, 26 insertions(+), 7 deletions(-)
+
+commit f333beabd98336bc1158093b909d431e442b96ab
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 20:54:19 2017 -0500
+
+    added history updates
+
+ main.ml | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 00f1dad752fa34d12a38178f6abc8fdb28195ff0
+Merge: 48676bb bedcb14
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 20:43:38 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 48676bbe2eb6e976fe9ef1714e4bbd262041a143
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 20:43:22 2017 -0500
+
+    added string_of_controller functions
+
+ main.ml | 40 ++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 40 insertions(+)
+
+commit bedcb1462e2fd9e45ebf31b268389325de319a07
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Wed Dec 6 20:42:21 2017 -0500
+
+    message log preview
+
+ main.ml | 21 ++++++++++++++++++++-
+ 1 file changed, 20 insertions(+), 1 deletion(-)
+
+commit a1e352d8ed96e28f31f0c26b9cd2c4e6e29457b8
+Merge: d4531d8 9f395c5
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Wed Dec 6 20:30:26 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit d4531d8bcebdd07a05cc054e4da4a22f3e27d0a0
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Wed Dec 6 20:30:19 2017 -0500
+
+    corrected error in auto-development of railroads
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 9f395c599f463056e5dad66382cb95373b90581c
+Merge: bf7e4db b633b53
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Wed Dec 6 19:41:03 2017 -0500
+
+    merge conf
+
+commit bf7e4dba2849daf097047d83f4143ed8e1f11696
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Wed Dec 6 19:40:42 2017 -0500
+
+    Winner modal
+
+ main.ml | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit b633b5312e75d106d2b8ead99d6a06eb0fd40dca
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Wed Dec 6 19:39:04 2017 -0500
+
+    added getter function for jail fee
+
+ state.ml      | 3 +++
+ state.mli     | 4 ++++
+ test_state.ml | 2 ++
+ 3 files changed, 9 insertions(+)
+
+commit d22c45031bf766dd735ef3b604d61e88185a8456
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 19:28:08 2017 -0500
+
+    updated readme
+
+ README.md | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+commit c6d08bdd4759212262a12b70803c619c206cd6a6
+Merge: cf2b263 8c49a29
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 19:25:06 2017 -0500
+
+    merged state_testing
+
+commit cf2b263cc144bb8b05d0486a440d13674ea83fec
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 17:14:24 2017 -0500
+
+    added support to turn random rolling on or off
+
+ main.ml       |  4 ++--
+ state.ml      | 18 ++++++++++--------
+ state.mli     |  2 +-
+ test_state.ml |  6 +++---
+ 4 files changed, 16 insertions(+), 14 deletions(-)
+
+commit cc6e998aae82d507f16d2e2d660fb2048899af13
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 16:53:43 2017 -0500
+
+    no change in functionality
+
+ main.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 079d960933e7e9ff330cdf49d4ec9d220a34cda9
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 16:47:20 2017 -0500
+
+    cosmetic changes
+
+ main.ml | 69 +++++++++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 35 insertions(+), 34 deletions(-)
+
+commit c0651bc71727fdad9db98d4b84569e965917b140
+Merge: 721e1b0 020bd12
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 16:24:47 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 721e1b0e7841d86a265b78deab1a71c08c10d446
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Dec 6 16:24:36 2017 -0500
+
+    fixed formatting with scrollers, boxes and labels were expanding by default
+
+ main.ml | 19 ++++++++++---------
+ 1 file changed, 10 insertions(+), 9 deletions(-)
+
+commit 8c49a2995de40fa13705d39ecc3826aca2405007
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Tue Dec 5 02:39:51 2017 -0500
+
+    testing on developing properties
+
+ state.ml          |   4 +-
+ test_board_2.json |   2 +-
+ test_state.ml     | 178 +++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 3 files changed, 178 insertions(+), 6 deletions(-)
+
+commit 020bd12b5d1ad685183848832382dc5c85bb7c4a
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Tue Dec 5 01:39:00 2017 -0500
+
+    fixed error in state for trade acceptance, fixed typo in command
+
+ command.ml     |  2 +-
+ controllers.ml |  6 ++---
+ main.ml        | 78 +++++++++++++++++++++++++++++-----------------------------
+ state.ml       | 10 ++++----
+ 4 files changed, 48 insertions(+), 48 deletions(-)
+
+commit 030dd430e45e7434f077318d12f1c20caca9abcf
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Tue Dec 5 01:36:30 2017 -0500
+
+    testing state, correct typo in command, correct accept_trade_error
+
+ command.ml        |   2 +-
+ controllers.ml    |   6 +--
+ state.ml          |   4 +-
+ state.mli         |   1 -
+ test_board_2.json |   2 +-
+ test_state.ml     | 133 ++++++++++++++++++++++++++++++++++++++++++++++++++----
+ 6 files changed, 132 insertions(+), 16 deletions(-)
+
+commit ffe88e06205d08e4f76925830e91a9dde3ad10d8
+Merge: 6fc6064 60e42ee
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Tue Dec 5 01:12:54 2017 -0500
+
+    EVERYTHING IS SO BEAUTIFUL
+
+commit 6fc606462f0e09c8ac8c9c35c05cfa35c1702e3a
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Tue Dec 5 01:08:46 2017 -0500
+
+    a modal to display trade details is created now
+
+ main.ml | 61 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 56 insertions(+), 5 deletions(-)
+
+commit 60e42eea5b955c3c5395136baa46898c5fc9bbb2
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Tue Dec 5 00:49:44 2017 -0500
+
+    Code cleanup
+
+ main.ml | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+
+commit 2035109e82e9bb02d7ea715e1d9d756050af6088
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Tue Dec 5 00:40:05 2017 -0500
+
+    finished trading windows, working now
+
+ main.ml | 140 +++++++++++++++++++++++++++++++++++++++++++++++-----------------
+ 1 file changed, 104 insertions(+), 36 deletions(-)
+
+commit 2e650234fee5dfc17341e4961a361afb32f3c718
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Tue Dec 5 00:16:14 2017 -0500
+
+    bringing up to date with master
+
+ state.ml | 65 +++++++++++++++++++++++++++++++++++++++++-----------------------
+ 1 file changed, 42 insertions(+), 23 deletions(-)
+
+commit 61a3373c1c8857dc063ed3288bd346b4d6166a04
+Merge: 6a61b7d 791e64e
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Tue Dec 5 00:13:57 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 6a61b7d4055d5a76939d6d4a459d21182c2e27fc
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Tue Dec 5 00:13:47 2017 -0500
+
+    Implemented auto-development of railroads
+
+ README.md |  3 +--
+ state.ml  | 59 ++++++++++++++++++++++++++++++++++++++++++-----------------
+ 2 files changed, 43 insertions(+), 19 deletions(-)
+
+commit 791e64ea04891ecb2668f6d45663985579d94da6
+Merge: 88918b8 904eb04
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 23:55:29 2017 -0500
+
+    merge conflict
+
+commit 88918b8dc9634e8d4f0cf2d7479a2eefc8edb9db
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 23:53:45 2017 -0500
+
+    Two more information windows implemented ... You can now view the entire list of board spaces and the occupants of them as well as all properties and information on them ... the 'game_over' modal is implemented but I'm not sure where yet in the code I should activate it
+
+ README.md |  8 +++---
+ main.ml   | 93 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----
+ 2 files changed, 91 insertions(+), 10 deletions(-)
+
+commit 904eb04dc9920369196644a3ec730cd3d9ea6e75
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 23:30:55 2017 -0500
+
+    removed utilities from testing
+
+ test_state.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 9610ba0c60d7c997debb881422c650f02d927faf
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 23:26:30 2017 -0500
+
+    removed property group utility
+
+ README.md |   4 +-
+ main.ml   | 263 +++++++++++++++++++++++++++++++-------------------------------
+ state.ml  |   6 --
+ state.mli |   3 +-
+ 4 files changed, 134 insertions(+), 142 deletions(-)
+
+commit f2323ddf38ad666fdeaa4c56a15aa202afcb5acb
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 22:49:19 2017 -0500
+
+    We can view all property info at any time now
+
+ README.md |  2 +-
+ main.ml   | 34 +++++++++++++++++++++++++---------
+ 2 files changed, 26 insertions(+), 10 deletions(-)
+
+commit 39929f9c17619ebbe1e56007f5526eacb10ef7bf
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 22:35:27 2017 -0500
+
+    the base trade window is ready minus the callback from there
+
+ main.ml | 70 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++----
+ 1 file changed, 66 insertions(+), 4 deletions(-)
+
+commit 08ded3908df44a849fd88966be8d17635900e27f
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 22:13:56 2017 -0500
+
+    re-did rolling 1
+
+ state.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 4084292f944398c1a36cfa571410a8b67ec7ea7f
+Merge: 7d15769 a805349
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 21:26:09 2017 -0500
+
+    Merge branch 'gui_main'
+
+commit 7d1576920169fd4346f897bfc7d3ba4d9574ca5b
+Merge: cfd9857 1a13d3d
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 21:00:09 2017 -0500
+
+    merge
+
+commit cfd9857580bc2ce9a36c96d1e4cf044782db5975
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 20:59:51 2017 -0500
+
+    Now we can view player info from the human modal
+
+ README.md |  2 +-
+ main.ml   | 69 +++++++++++++++++++++++++++++++++++++++++++++++++--------------
+ 2 files changed, 55 insertions(+), 16 deletions(-)
+
+commit e7096bbe8857d0605b09a39968becd7bddb249b7
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 20:45:20 2017 -0500
+
+    transfering corrections from master branch
+
+ state.ml | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+commit 1a13d3d2871e34a8c8aff126f12dbc699878a4eb
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 20:43:41 2017 -0500
+
+    fixed error in determining if had landed on your own property
+
+ state.ml | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit fdee259a0719f74bc643dbd978569971ce11732a
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 20:41:21 2017 -0500
+
+    fixed errors in determining whether a property was developable
+
+ state.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 9605d68fc2109eb6e3dd390adc23032ce0f97cdd
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 19:43:30 2017 -0500
+
+    updating README after bug fixes
+
+ README.md | 30 +++++++++++++++---------------
+ main.ml   |  3 ++-
+ 2 files changed, 17 insertions(+), 16 deletions(-)
+
+commit a805349de822e1dca385bc2a49bdddee457d5f35
+Merge: 5be2eec 0524ed2
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 19:17:10 2017 -0500
+
+    Merge branch 'gui_main' of https://github.coecis.cornell.edu/ak2426/cs3110-final into gui_main
+
+commit 31afce3ba4ce7a998ad953c6668f457a5b31b6c1
+Merge: cbe648a 1562d06
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 19:16:04 2017 -0500
+
+    merge
+
+commit cbe648a9be6f6c7f11e28c8d3a143c0022acfd58
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 19:15:53 2017 -0500
+
+    escape bug
+
+ main.ml | 13 +++++++++----
+ 1 file changed, 9 insertions(+), 4 deletions(-)
+
+commit 1562d0612cc0ee550c9e185fb15991ede0551708
+Merge: dccc9d8 ad40293
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 19:12:30 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit dccc9d80619ace91fe0094bfc5cc3dda0cdb9569
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 19:12:12 2017 -0500
+
+    buying shows the amount of propertu
+
+ main.ml | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit ad4029351d7911c4da77c171d3399bfe316a9cfb
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 19:10:54 2017 -0500
+
+    Fixing bugs
+
+ README.md | 4 ++--
+ main.ml   | 3 ++-
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+commit 2c03a33a3c17fc5c4d15ef8ebb23497019a8ae2d
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 19:07:41 2017 -0500
+
+    updating readme with known bugs
+
+ README.md | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 5be2eecc1c4102f72292dd246f1d461c8c6bed90
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 19:07:22 2017 -0500
+
+    trying to do trade
+
+ main.ml | 40 ++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 38 insertions(+), 2 deletions(-)
+
+commit ddb170c2ab62e713e63f14d4e3e046cda85a6677
+Merge: c33661c 0524ed2
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 18:59:10 2017 -0500
+
+    merge with gui_main
+
+commit 0524ed22a81de616c363d1a9984bb21075631b58
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 18:58:29 2017 -0500
+
+    Small bug fixes
+
+ main.ml | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 631555b8b9ba462d2084151167a62bef1174cf2c
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 18:55:20 2017 -0500
+
+    small fixes
+
+ main.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 4527ba51271158eb8a063b7e75f5fb1ac9d36d08
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 18:52:49 2017 -0500
+
+    more testing for moving 1 step, buying a property
+
+ state.ml          |  10 ++--
+ test_board.json   |   8 +--
+ test_board_2.json |  56 +++++++++++++++++++++
+ test_state.ml     | 147 ++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 4 files changed, 206 insertions(+), 15 deletions(-)
+
+commit a093b316cf33ead67cc4f427edbd909649db4cac
+Merge: 848449f 61d3b6a
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 18:38:24 2017 -0500
+
+    merge
+
+commit 848449f3f278f494548cda2e1fe877796018dc23
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 18:38:08 2017 -0500
+
+    human prop details implemented ... needs to be tested
+
+ main.ml | 110 +++++++++++++++++++++++++++++++++++++---------------------------
+ 1 file changed, 63 insertions(+), 47 deletions(-)
+
+commit c33661c76e07b296c9221a5eb1db820d40a14215
+Merge: 7f764d7 61d3b6a
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 18:06:28 2017 -0500
+
+    Merge branch 'gui_main'
+
+commit 61d3b6ab85c9cb02ac231ce2e6f4e59ead2f185f
+Merge: 336b493 e9163ac
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 18:05:32 2017 -0500
+
+    Merge branch 'gui_main' of https://github.coecis.cornell.edu/ak2426/cs3110-final into gui_main
+
+commit 336b493623bbe01b9b1f5fb1a34620410d97f026
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 18:05:24 2017 -0500
+
+    all commands except trade in preroll should work
+
+ main.ml | 49 ++++++++++++++++++++++++++++++++-----------------
+ 1 file changed, 32 insertions(+), 17 deletions(-)
+
+commit e9163ac735bbb343ea02875c65dbcac711788a91
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 17:53:53 2017 -0500
+
+    pester user if element is not in list
+
+ main.ml | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 7f764d7d235b174adc0fd60f7885d34a91bc9a59
+Merge: 0059422 55d18e5
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 17:32:14 2017 -0500
+
+    merge conflicts
+
+commit 0059422a2a599df0a24f1317a3010ba4fa21200b
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 17:29:43 2017 -0500
+
+    Fix GoToSpace
+
+ .ocamlinit | 2 +-
+ state.ml   | 6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+commit eff12f9cff1afb4b4d1a129b9950fa117103f8e2
+Merge: 6602f4a ee8f92c
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 17:25:56 2017 -0500
+
+    dumb swap file
+
+commit 6602f4a18265cf0b07f8e2afcc02967b757a2f8c
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 17:24:20 2017 -0500
+
+    Fixed GotoSpace bug
+
+ state.ml        | 12 ++++++++----
+ test_board.json |  6 +++---
+ 2 files changed, 11 insertions(+), 7 deletions(-)
+
+commit ee8f92c31f14a9ee2442f7416344dac10f8b87f7
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Mon Dec 4 17:18:25 2017 -0500
+
+    new controller
+
+ controllers.ml | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+
+commit 4b32350fc1f34431e24bedf6cbe32f5b787411bc
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 17:15:54 2017 -0500
+
+    Fixed counting doubles
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d10265f5d8689f563c46fc7d9bd2a97398f8575b
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 17:10:00 2017 -0500
+
+    Fixed errors in move_spaces
+
+ state.ml | 102 +++++++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 51 insertions(+), 51 deletions(-)
+
+commit d3d6d7c14caa8f2096fd2bcba54a7b2ac5ca87e0
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 17:08:47 2017 -0500
+
+    fixed errors with not using ' states in move spaces
+
+ state.ml | 20 ++++++++++----------
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+
+commit 55d18e59b97487308e74c350539cacb4e8431c13
+Merge: 56f42fc d10265f
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 17:04:41 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 56f42fceccfdaec1b66cd2d110b5832c91e25873
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 17:04:21 2017 -0500
+
+    was controller
+
+ .ocamlinit | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 8a61547717b6c3f992eab8a6f3074b02a5865874
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 16:56:38 2017 -0500
+
+    matching changes from masterll
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 5e2e792e3d1a353e507b27f576a4274396a03a44
+Merge: bd1d089 297bad6
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 16:54:18 2017 -0500
+
+    swap file stuff
+
+commit bd1d089cdb65c1f940b90303a1ca159dcecedfbc
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 16:53:44 2017 -0500
+
+    position updating properly when landing on property
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7e5d4a9facf72a0431bace62389e7740cf3ec723
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 16:44:56 2017 -0500
+
+    added changes in state to backup branch
+
+ state.ml | 118 ++++++++++++++++++++++++++++++++++-----------------------------
+ 1 file changed, 64 insertions(+), 54 deletions(-)
+
+commit 297bad62a9a8a7902d5158ec93d9a2d9571b5228
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Mon Dec 4 16:44:27 2017 -0500
+
+    bug fix
+
+ controllers.ml | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit f3a3924ae01a03f388f9f4d982ebdaedc256d4cb
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 16:33:48 2017 -0500
+
+    added more preroll commands
+
+ main.ml | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+
+commit e8aede2a54bcad270e4dec39423bf02da6202a9b
+Merge: e171a45 400f89b
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 16:27:50 2017 -0500
+
+    Updated calculating preroll versus preroll in jail, merge conflict
+
+commit e171a458b6dfcb90381ae2825ee4bd98b3db396d
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 16:16:57 2017 -0500
+
+    merging readme
+
+ README.md | 30 ++++++++++++++++--------------
+ 1 file changed, 16 insertions(+), 14 deletions(-)
+
+commit 473f307a07de88a2180c1622e5599d59583be591
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 16:16:30 2017 -0500
+
+    Corrected calculation of Preroll versus Preroll_injail for turntype when changing turns
+
+ state.ml | 16 ++++++++++++----
+ 1 file changed, 12 insertions(+), 4 deletions(-)
+
+commit 400f89bbd483009204e1dfc42cfd050e2ba401b6
+Merge: 60791d0 1b63bad
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 16:09:52 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 60791d0fa1986577c4d8af0f6189ba9efd8c7b42
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 16:09:39 2017 -0500
+
+    what doesn't work on the GUI yet
+
+ README.md | 30 ++++++++++++++++--------------
+ 1 file changed, 16 insertions(+), 14 deletions(-)
+
+commit 1b63bad7fc5a60e95952d5388449aae5b7a811ba
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 15:54:40 2017 -0500
+
+    fixed doubles so you don't get to roll again in jail
+
+ state.ml | 24 +++++++++++++-----------
+ 1 file changed, 13 insertions(+), 11 deletions(-)
+
+commit 08455bb9fa0c001bdbd4493031a3ef2cfd00effb
+Merge: 8d12a84 4226a52
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 15:28:47 2017 -0500
+
+    Merge branch 'gui_main'
+
+commit 8d12a84882ab796f50c63e5775311c34b44ed873
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 15:21:29 2017 -0500
+
+    added functionality based on rolling doubles
+
+ README.md |  6 +++---
+ state.ml  | 46 ++++++++++++++++++++++++++++++++++------------
+ 2 files changed, 37 insertions(+), 15 deletions(-)
+
+commit 7dac98ac919c3d5587e18b09883df998076f3cb9
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 14:53:27 2017 -0500
+
+    Testing of intializing state and simple pre_roll commands
+
+ state.ml        |  11 ++--
+ state.mli       |  10 +--
+ test_board.json |   4 +-
+ test_state.ml   | 194 ++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 4 files changed, 204 insertions(+), 15 deletions(-)
+
+commit 4226a52f224c05339f86fa5900d7ae286144e32a
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 14:14:30 2017 -0500
+
+    keys and desc in human_modal for end_turn didn't match
+
+ main.ml | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 76d263aa6cfb114d54942c2b6cd28aba29aa76b5
+Merge: 1edd2a4 bcd380e
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 14:13:26 2017 -0500
+
+    fixed merge conflict, select from list is a frame
+
+commit bcd380effad00e763cf0bbd5423b542dd2e287e9
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 14:15:50 2017 -0500
+
+    Implemented more abstract modal 'select_from_list'
+
+ main.ml | 55 +++++++++++++++++++++++++------------------------------
+ 1 file changed, 25 insertions(+), 30 deletions(-)
+
+commit 1edd2a4dfdf3bfc2816a9313556ca69e557016ba
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 14:07:09 2017 -0500
+
+    beautifying display of labels, human modal will now display the moves at that turn
+
+ main.ml | 116 ++++++++++++++++++++++++++++++++++++++++++++++------------------
+ 1 file changed, 83 insertions(+), 33 deletions(-)
+
+commit 665fa3eb4326e665582069cc49e67c1ea33a85a2
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 12:27:23 2017 -0500
+
+    preroll_sell_prop is basically done... I just want to test that it works with a hardcoded list of properties
+
+ main.ml | 26 ++++++++++++--------------
+ 1 file changed, 12 insertions(+), 14 deletions(-)
+
+commit e5319a8b3960610abca475b7a39d16fcd648c731
+Merge: 3c71eb2 bc6bd25
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 12:06:34 2017 -0500
+
+    merge confl
+
+commit 3c71eb20d0e89f263b655b390c3c8bc5fe81c7ae
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 12:05:01 2017 -0500
+
+    sell_prop work
+
+ main.ml | 61 +++++++++++++++++++++++++++++++++++++++++++++++--------------
+ 1 file changed, 47 insertions(+), 14 deletions(-)
+
+commit bc6bd2526302ea4e59dc53e0f600ed43bae6dc6f
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 12:03:03 2017 -0500
+
+    testing scrolling, found many faults. Scrolling only works in frames, so created frames and modal_frame classes. Use game_frame when you have a scroller in it, and game_modal_frame otherwise
+
+ main.ml | 139 ++++++++++++++++++++++++++++++++++++++++++++++------------------
+ 1 file changed, 100 insertions(+), 39 deletions(-)
+
+commit ad0d571e903122abfb228bccf0dcfa9d78972860
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 10:35:20 2017 -0500
+
+    bound keys to scrolling in human_info_show_p_prop
+
+ main.ml | 20 ++++++++++++++------
+ 1 file changed, 14 insertions(+), 6 deletions(-)
+
+commit 5526eab92b2be30f2bccd3ab299b2850539c6cad
+Merge: 3b85987 505c10e
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 10:20:01 2017 -0500
+
+    merge
+
+commit 3b8598762b24d32fcefa6e63978d2c6f8d2137d0
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 10:19:49 2017 -0500
+
+    harcoding a list to display
+
+ main.ml | 14 +++++++++++---
+ 1 file changed, 11 insertions(+), 3 deletions(-)
+
+commit 505c10eafae7a5162b8b840f69a00e75f8ada5bc
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 10:06:31 2017 -0500
+
+    fixed a change that Anmol made in the abstract implementation, but Jehron was using the previous version
+
+ main.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 16ae8be69bd43a9b720637d4a0569add0b33bb65
+Merge: de29ccf 308395e
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 10:04:18 2017 -0500
+
+    Merge branch 'gui_main' of https://github.coecis.cornell.edu/ak2426/cs3110-final into gui_main
+
+commit de29ccf1c2c975e87faf3a83875353fd63d21fdd
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 10:03:54 2017 -0500
+
+    added support for special key bindings in bind_keys, humanized output for indices
+
+ main.ml | 83 +++++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 50 insertions(+), 33 deletions(-)
+
+commit 308395e93ba880a96dde283bafcad2fbedb16a23
+Merge: 6408d37 87fb831
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 09:40:29 2017 -0500
+
+    merge
+
+commit 6408d3742af253c20468a31ba734d5d4c50a2c12
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Dec 4 09:40:17 2017 -0500
+
+    bind_keys_complex_turntype
+
+ main.ml | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit 87fb831c255726422a8a863d4b4ad95cf81481b7
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 09:37:33 2017 -0500
+
+    made the scrollable box more generalized, can create a box if provided a list
+
+ main.ml | 37 ++++++++++++++++++++-----------------
+ 1 file changed, 20 insertions(+), 17 deletions(-)
+
+commit 64dd125b01d988509fbb3e888392df279b2ae035
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 02:23:05 2017 -0500
+
+    added a class to abstract scrollable things based on lambda-term example. Still need to bind up and down to scrolling though
+
+ main.ml | 103 ++++++++++++++++++++++++++++++++++++++++++++++++++++------------
+ 1 file changed, 84 insertions(+), 19 deletions(-)
+
+commit 5cf954a493ad9f0a8f18c29b999a719a309b5f07
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 01:06:38 2017 -0500
+
+    added make test
+
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c58b4fbb0c5789c63ff06205641c7a5f94189284
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 01:03:14 2017 -0500
+
+    fixed breaking code due to merge
+
+ main.ml | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 2f025570e86b169394f10f0bafb3f56490501d86
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 00:58:54 2017 -0500
+
+    renamed
+
+ state_test.ml => test_state.ml | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 0386328b49d5d388db8a5ac80dbfafbe60947221
+Merge: 0584a9c c6858c0
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 00:57:50 2017 -0500
+
+    the dreaded swap file strikes again
+
+commit 0584a9c08cda01d01f25cd94bdcf91bd78a48874
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 00:55:25 2017 -0500
+
+    structure for state testing
+
+ state.ml      |  6 ------
+ state_test.ml | 26 ++++++++++++++++++++++++++
+ 2 files changed, 26 insertions(+), 6 deletions(-)
+
+commit a50b6eae6ef5ef24c4518f0087602e2baa3562e3
+Merge: c512ba6 c6858c0
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 00:54:31 2017 -0500
+
+    Merge branch 'master' into gui_main
+
+commit c6858c0392da18b2b30266ad3451be038389edd2
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Mon Dec 4 00:52:34 2017 -0500
+
+    some more code
+
+ controllers.ml | 14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+
+commit c512ba6b502f7a7218f4c4d77d77c9d73ecb1246
+Merge: 5385fe7 c995dd4
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Dec 4 00:48:07 2017 -0500
+
+    Merge branch 'master' into gui_main
+
+commit b4cb3b11303f68daf194a605c50d884edda19599
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Mon Dec 4 00:42:10 2017 -0500
+
+    ai3
+
+ controllers.ml  | 26 +++++++++++++++++++++++++-
+ controllers.mli |  2 ++
+ 2 files changed, 27 insertions(+), 1 deletion(-)
+
+commit 7734ef0f1fe190c6eba186457584c0c65a5ab254
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 00:38:20 2017 -0500
+
+    added a command to pay the jail fee in order to get out of jail
+
+ README.md  | 18 ++++++++++++------
+ command.ml |  1 +
+ state.ml   | 16 ++++++++++++----
+ state.mli  |  8 +++++++-
+ 4 files changed, 32 insertions(+), 11 deletions(-)
+
+commit eae0d43e336fc31870055b9fac6ea5357d1fdd5a
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 00:16:24 2017 -0500
+
+    made starting amount, passing go amount, and jail fee specifiable in the json file
+
+ state.ml        | 14 ++++++++++----
+ state.mli       | 14 +++++++++-----
+ test_board.json |  2 +-
+ 3 files changed, 20 insertions(+), 10 deletions(-)
+
+commit aa247f6d4b0b4f469f4dacca7b30b7e1ed1c090a
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Dec 4 00:04:15 2017 -0500
+
+    Added commands SellAndRoll and DevelopAndRoll for use by AI. Changed implementation of develop to only accept when property is of a color group and the player has a monopoly on the property
+
+ README.md       | 14 +++++++++-----
+ command.ml      |  2 ++
+ state.ml        | 46 ++++++++++++++++++++++++++++++++++------------
+ state.mli       |  6 +++++-
+ test_board.json | 20 ++++++++++++++++++--
+ 5 files changed, 68 insertions(+), 20 deletions(-)
+
+commit 7eaa92db9db17335cdac8e3cfa981fab2b1912c1
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Dec 3 22:34:41 2017 -0500
+
+    exposed property_group type, adjusted typing of relevant getter functions, added getter functions related to property groups
+
+ README.md |  1 +
+ state.ml  | 43 ++++++++++++++++++++++---------------------
+ state.mli | 27 ++++++++++++++++-----------
+ 3 files changed, 39 insertions(+), 32 deletions(-)
+
+commit 7b5717c2c32d0faf147b58a4f4b4f4674ebee9c4
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Sun Dec 3 21:27:23 2017 -0500
+
+    print message
+
+ controllers.ml | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit c6e100472d551c87a777bb50425261393b17577b
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Dec 3 21:20:03 2017 -0500
+
+    correct type error in state
+
+ state.mli | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit f9033b3731b4b2ff52cb123aa809d6bfc1dd9d68
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Sun Dec 3 21:19:09 2017 -0500
+
+    controller error fix
+
+ controllers.ml | 70 +++++++++++++++++++++++++++++-----------------------------
+ 1 file changed, 35 insertions(+), 35 deletions(-)
+
+commit 021114ceca15d5df44dfc2d2c9718ceb0a84a892
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Dec 3 21:18:24 2017 -0500
+
+    Goals in Readme and minor updates to state
+
+ README.md | 56 ++++++++++++++++++++++++++++++++++++++++++++++----------
+ state.ml  | 10 ++++++----
+ state.mli |  9 +++++++++
+ 3 files changed, 61 insertions(+), 14 deletions(-)
+
+commit 5385fe7fe372c5416cfaac8bc4425ee36bc94ed8
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Dec 3 18:57:13 2017 -0500
+
+    framework for human modal, building more modals for elements in the human modal
+
+ main.ml | 85 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++---
+ 1 file changed, 82 insertions(+), 3 deletions(-)
+
+commit 2c32c64d6b19cd586b9e40f57f19f10a5a6893ca
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Dec 3 17:14:53 2017 -0500
+
+    some documentation, formatting and code refactoring to make it less repetitive
+
+ main.ml | 104 +++++++++++++++++++++++++++++++++++++++++++++-------------------
+ 1 file changed, 74 insertions(+), 30 deletions(-)
+
+commit 5f334eed2736943e6ec2a95b0d1dbbe6db09dc79
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Dec 3 14:37:02 2017 -0500
+
+    minor formatting, removed commented code
+
+ main.ml | 14 ++------------
+ 1 file changed, 2 insertions(+), 12 deletions(-)
+
+commit 52b1e4dbffddbab580f201026b45b6915b83e2cb
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Dec 3 14:33:17 2017 -0500
+
+    associated some keys to commands in human modal
+
+ main.ml | 82 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++------
+ 1 file changed, 75 insertions(+), 7 deletions(-)
+
+commit 4ae42fc56163c191d6ffef771d5d0764cfaf619c
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Dec 3 13:46:26 2017 -0500
+
+    removed print statements
+
+ main.ml | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+commit bbac2c59e4322fff63ec9fd16590a8ab28e22a42
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Dec 3 13:45:40 2017 -0500
+
+    fixed the problem where ai and human modal wasn't showing up. Weird solution: let the game_modal pop previous modals and require that at least a modal exists before game modal is called.
+
+ main.ml | 38 +++++++++++++++++---------------------
+ 1 file changed, 17 insertions(+), 21 deletions(-)
+
+commit f25bbd07a3ed2984de5f5bde8d1932f7f0b4e875
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Dec 3 00:35:00 2017 -0500
+
+    game now runs and players get initialized. but, ai modals don't get pushed
+
+ main.ml | 179 +++++++++++++++++++++++++++++++++++++++-------------------------
+ 1 file changed, 109 insertions(+), 70 deletions(-)
+
+commit a8d7dd1099e5931754838f60523f5e4e546f3d21
+Merge: de81e4f 2ee0ddd
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sat Dec 2 22:00:46 2017 -0500
+
+    merge
+
+commit de81e4fd025ed10a121c2a74864ea74adcb2a695
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sat Dec 2 22:00:30 2017 -0500
+
+    The pselect and cselect modals work together now ... the user can setup the players before the game
+
+ main.ml | 52 +++++++++++-----------------------------------------
+ 1 file changed, 11 insertions(+), 41 deletions(-)
+
+commit 2ee0ddd9776edf9c14f7c21904eb695e36931db0
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sat Dec 2 21:57:43 2017 -0500
+
+    removed placeholder functions, and can_focus
+
+ main.ml | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+commit ea275e91bcfd3133764ccca46f29fffa70be0b5a
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sat Dec 2 21:34:43 2017 -0500
+
+    trying a few things ... nothing is helping though
+
+ main.ml | 64 ++++++++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 32 insertions(+), 32 deletions(-)
+
+commit d7df399410c5b1188ac44d3d135cb9936e893610
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sat Dec 2 21:04:56 2017 -0500
+
+    print statements to prove my point
+
+ main.ml | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 6a04684a979924de669ee7cd40b71f325359d410
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sat Dec 2 20:52:26 2017 -0500
+
+    There is a bug with bind_keys or something ... when I open the controller select modal, all of the keys get pseudo-clicked before I even select a controller ... I've been trying to debug this since the time of the last commit to no avail ... try looking at this Anmol
+
+ main.ml | 39 ++++++++++++++++++++++++++++-----------
+ 1 file changed, 28 insertions(+), 11 deletions(-)
+
+commit 280a4a4022020a591ccc914b3a4d32c50acec263
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sat Dec 2 19:55:38 2017 -0500
+
+    Removed 'player x' and replaced them with pieces on the board to make game user friendly
+
+ main.ml | 41 ++++++++++++++++++++++++-----------------
+ 1 file changed, 24 insertions(+), 17 deletions(-)
+
+commit 2573c1909356620046758fe291ea947658be3e85
+Merge: c7c18d6 90f37ea
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sat Dec 2 19:35:10 2017 -0500
+
+    merge
+
+commit c7c18d6e1c9e54f11ea0664f3c9d5a102bcc5515
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sat Dec 2 19:33:35 2017 -0500
+
+    Now when you select a controller for a player, that player's vbox gets updated to let the user know that they have successfully assigned a controller to that player
+
+ main.ml | 91 +++++++++++++++++++----------------------------------------------
+ 1 file changed, 26 insertions(+), 65 deletions(-)
+
+commit c995dd4002135f9c50d3f136fc19eb09409fb53a
+Merge: 33cc9bf 0653067
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sat Dec 2 18:28:55 2017 -0500
+
+    swap file thing again?
+
+commit 33cc9bfdc3cfe3fd282a52440297c77b3e80560a
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sat Dec 2 18:28:17 2017 -0500
+
+    corrected implementation for drawing a GoToSpace card
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 065306735ed1a262a2ab7bf03e2452341fd2c182
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Sat Dec 2 18:27:05 2017 -0500
+
+    controller dev_cost
+
+ controllers.ml | 17 +++++++++++------
+ 1 file changed, 11 insertions(+), 6 deletions(-)
+
+commit 506afb5cd96fd8893e1530d4f77f58f3e7371429
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sat Dec 2 18:22:55 2017 -0500
+
+    Changed state to make board_spaces public, return type of get_location_player to board_space, added string_of_board_space function
+
+ state.ml  | 16 ++++++----------
+ state.mli | 14 +++++++++++++-
+ 2 files changed, 19 insertions(+), 11 deletions(-)
+
+commit 90f37ea3eee18e07134a3eb5e901e6c614d44b91
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sat Dec 2 17:57:35 2017 -0500
+
+    added modal interface for game_loop - ai gui is done, implementing human modal
+
+ main.ml | 64 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 59 insertions(+), 5 deletions(-)
+
+commit f229f06ddda78359c1d169a00e290a24194434df
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Sat Dec 2 17:43:19 2017 -0500
+
+    controller outputs
+
+ controllers.ml | 56 +++++++++++++++++++++++++++++++++++++++++++++-----------
+ 1 file changed, 45 insertions(+), 11 deletions(-)
+
+commit 6b7b3ae2d75f68149234d21df26132c7d6b29ee4
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sat Dec 2 17:39:04 2017 -0500
+
+    Fix bug of not advancing to next turn when playing transaction
+
+ state.ml | 22 +++++++++++-----------
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+
+commit 443fd98d70a8d74184db5e93752d9a6751804109
+Merge: d45e7aa d6bc2ce
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sat Dec 2 15:32:18 2017 -0500
+
+    merge
+
+commit d45e7aac336bb62ba01001e874df04edb9a46468
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sat Dec 2 15:31:17 2017 -0500
+
+    Added controller select modals with player info on click ... Anmol: we should talk about how we want to store data about these players to access later
+
+ main.ml | 49 +++++++++++++++++++++++++++++++++++++++++++------
+ 1 file changed, 43 insertions(+), 6 deletions(-)
+
+commit d6bc2ce9fbb6a5a5e57953be401678785d5889ee
+Merge: a7cabc0 2661899
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sat Dec 2 12:35:03 2017 -0500
+
+    Merge branch 'gui_main' of https://github.coecis.cornell.edu/ak2426/cs3110-final into gui_main
+
+commit a7cabc092a05ba1e6572192511d63ab8bede0020
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sat Dec 2 12:34:50 2017 -0500
+
+    starting the game modal code
+
+ main.ml | 25 +++++++++++++++++--------
+ 1 file changed, 17 insertions(+), 8 deletions(-)
+
+commit 266189996e557e36bc67e94232bea525cec05b03
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sat Dec 2 12:07:54 2017 -0500
+
+    removed old bind_keys function
+
+ main.ml | 14 --------------
+ 1 file changed, 14 deletions(-)
+
+commit 6a2689baeaf97407df0bedfd09a499e02f143cb4
+Merge: d0d5ba2 e517929
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sat Dec 2 11:59:41 2017 -0500
+
+    resolved merge conflict
+
+commit d0d5ba2e33e0bd2d2babf692d4d74f112edefb8c
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sat Dec 2 11:49:46 2017 -0500
+
+    error in escape command; fixed
+
+ main.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit e517929c9b80863db423466fca175521b15ac554
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sat Dec 2 05:39:29 2017 -0500
+
+    Finished initial implemnation of state update function (do'), mostly untested.
+
+ README.md  |  16 ++-
+ command.ml |   2 +-
+ state.ml   | 397 ++++++++++++++++++++++++++++++++++++++++++++++++++-----------
+ state.mli  |  29 +++--
+ 4 files changed, 364 insertions(+), 80 deletions(-)
+
+commit 0bd7e3f3adcc90990901e72eea73b497cf7fbcf3
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sat Dec 2 01:02:33 2017 -0500
+
+    minor cosmetic changes, some doc
+
+ main.ml | 23 +++++++++++++++++------
+ 1 file changed, 17 insertions(+), 6 deletions(-)
+
+commit 5c6d037f091bdd4447b786398ef52970b80c87d2
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sat Dec 2 00:40:14 2017 -0500
+
+    modal to display players in the game
+
+ main.ml | 56 +++++++++++++++++++++++++++++++++++++++++++++++---------
+ 1 file changed, 47 insertions(+), 9 deletions(-)
+
+commit 7e2dbf4b00e1444fcb20ee14c98a2e1cad1ca37d
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Dec 1 23:56:23 2017 -0500
+
+    added an error modal
+
+ main.ml | 59 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++---
+ 1 file changed, 56 insertions(+), 3 deletions(-)
+
+commit adc650764927006ca947cd3dc21469bb79a899c6
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Dec 1 22:27:31 2017 -0500
+
+    updated readme with a snippet
+
+ README.md | 20 +++++++++++++-------
+ 1 file changed, 13 insertions(+), 7 deletions(-)
+
+commit 2cfaf7365285c5190b5b9d2a10bafe7e35a70b38
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Dec 1 22:17:42 2017 -0500
+
+    converted key-bindings job into a class game_frame to the repetitive stuff
+
+ main.ml | 132 ++++++++++++++++++++++++++++++++++++++++++++--------------------
+ 1 file changed, 91 insertions(+), 41 deletions(-)
+
+commit 8b89e590e8d0a856c3d885ec190ef364b29d9bd8
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Dec 1 17:29:18 2017 -0500
+
+    updated readme on how to bind keys to a modal frame
+
+ README.md | 66 +++++++++++----------------------------------------------------
+ 1 file changed, 11 insertions(+), 55 deletions(-)
+
+commit 52370ffc5c4399336f9d22dff7c9340da3793c52
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Dec 1 17:20:02 2017 -0500
+
+    working keybindings with modal frames
+
+ main.ml | 312 ++++++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 165 insertions(+), 147 deletions(-)
+
+commit f8788b5312ec7d8dfcc63a39701dce37668b830e
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Dec 1 16:54:04 2017 -0500
+
+    working on gui through key bindings and not mouse now. bound some keys for some modals
+
+ main.ml | 106 +++++++++++++++++++++++++++++++---------------------------------
+ 1 file changed, 52 insertions(+), 54 deletions(-)
+
+commit 44a096da304438c8808e6416bcb820f14d0b4176
+Merge: 8199c63 fa9307c
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Nov 30 22:21:04 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 8199c631b5b7dcdb37b51219a935b576712825a1
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Nov 30 22:20:51 2017 -0500
+
+    stopping the game when length of players list is one
+
+ main.ml | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit fa9307c49c10d04aa3b2c22c4d40081763846604
+Merge: 17d5483 a37fd0f
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Nov 30 22:16:10 2017 -0500
+
+    merge conflict? swap file? something
+
+commit 17d5483c1f95088960a1c8d364cbd77fe1098310
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Nov 30 22:15:04 2017 -0500
+
+    Implementation of the MakeAIController Functor
+
+ README.md      |  4 ----
+ controllers.ml | 19 +++++++++++++++++--
+ 2 files changed, 17 insertions(+), 6 deletions(-)
+
+commit a37fd0f07733705f03f711d95e42aa4b0090bca3
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Nov 30 22:13:55 2017 -0500
+
+    rough code to test while gui is being finished
+
+ main.ml | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+commit 3e844a4f425f304fecf85e2ca0ba1254cc43ba31
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Nov 30 21:20:43 2017 -0500
+
+    minor; main problem: the first button gets the event of the whole frame, and overrides the other buttons
+
+ main.ml | 16 ++++++++++------
+ 1 file changed, 10 insertions(+), 6 deletions(-)
+
+commit 1734a9567332b87dbdd015ed99471e45173d34ba
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Nov 30 18:11:56 2017 -0500
+
+    wrote code for the pselect modal frame; all buttons on a general modal are not working
+
+ main.ml | 264 +++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 138 insertions(+), 126 deletions(-)
+
+commit 77cf8f42a2003658ca77097882ba67dc253b311b
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Nov 30 16:17:36 2017 -0500
+
+    working init_modal, json_fname modal starting; couldn't automatically start a modal when the game starts
+
+ main.ml | 56 ++++++++++++++------------------------------------------
+ 1 file changed, 14 insertions(+), 42 deletions(-)
+
+commit 207c5a81b2c229be180479b555c46ec1c4782477
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Nov 30 15:36:34 2017 -0500
+
+    working implementation, needs more refinement on stage change
+
+ main.ml | 107 ++++++++++++++++++++++++++++++++++++++++------------------------
+ 1 file changed, 67 insertions(+), 40 deletions(-)
+
+commit eb6046f661745452e03cf8c276177d07d6323bf3
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Nov 30 04:10:03 2017 -0500
+
+    partial implementation of the state update function. Spec updated in mli to match.
+
+ state.ml  | 180 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ state.mli |  25 ++++-----
+ 2 files changed, 192 insertions(+), 13 deletions(-)
+
+commit 2b612fa984cc51ccd6d6cfcf4b4cec2d6a2008e1
+Merge: 25f0adb fd32c91
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Nov 30 00:40:26 2017 -0500
+
+    merge conflict resolve
+
+commit 25f0adbaae3b7dac0929c10061a4da68b49be852
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Nov 30 00:36:27 2017 -0500
+
+    Implementation of initializing state from a json file. Example json file included for testing and syntax purposes.
+
+ state.ml        | 93 ++++++++++++++++++++++++++++++++++++++++++++++++++-------
+ test_board.json | 31 +++++++++++++++++++
+ 2 files changed, 114 insertions(+), 10 deletions(-)
+
+commit 1ee0a323a571595fd155ba9da69b959ec665d64d
+Author: Anmol Kabra <ak2426@cornell.edu>
+Date:   Tue Nov 28 23:47:17 2017 -0500
+
+    Ideas for keeping track of the game stage in the gui
+
+ README.md | 59 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 59 insertions(+)
+
+commit fd32c9169fe9bf096afc4a074c0b995f6801231f
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Tue Nov 28 21:53:10 2017 -0500
+
+    AI1 implementation
+
+ controllers.ml | 49 ++++++++++++++++++++++++++++++++++++++-----------
+ 1 file changed, 38 insertions(+), 11 deletions(-)
+
+commit 365db947dbc80732f60896cb9da480c7ec21f7f0
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Tue Nov 28 18:49:50 2017 -0500
+
+    trying to correctly associate mappings in the modals, added abstraction to the game state - not complete
+
+ README.md |  7 ++++++
+ main.ml   | 80 +++++++++++++++++++++++++++++++++++++--------------------------
+ 2 files changed, 54 insertions(+), 33 deletions(-)
+
+commit 0d58aad65631d0e021f7067f113989eb1612b1c3
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Tue Nov 28 18:29:13 2017 -0500
+
+    implementation of all getter functions
+
+ state.ml | 100 ++++++++++++++++++++++++++++++++++++++++++++++++---------------
+ 1 file changed, 77 insertions(+), 23 deletions(-)
+
+commit 8bd0d288cfc6343bff024b1273c76d5ef8276628
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Tue Nov 28 14:57:47 2017 -0500
+
+    tried to have the quit button exit the terminal, but I guess that it can't remove all layers at once
+
+ main.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 20faecaa2ae384166795bc83434d6b31348bbad9
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Tue Nov 28 01:12:57 2017 -0500
+
+    First draft at attempting to create the startup menu ... still haven't been able to load it initially
+
+ main.ml | 62 +++++++++++++++++++++++++++++++++++++++++++++-----------------
+ 1 file changed, 45 insertions(+), 17 deletions(-)
+
+commit c86906e14c0054d79005c38bf201638af67bcc18
+Author: Anmol Kabra <ak2426@cornell.edu>
+Date:   Mon Nov 27 22:53:25 2017 -0500
+
+    ideas behind GUI
+    
+    comparing with the reference implementation
+
+ README.md | 19 ++++++++++++++++++-
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+
+commit c2316558fd79b92227cd1c50777bd686ffaef4cb
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Nov 27 17:49:59 2017 -0500
+
+    very broken code, still working on it
+
+ main.ml | 19 +++++++++----------
+ 1 file changed, 9 insertions(+), 10 deletions(-)
+
+commit 7cb11af4c81c731dd2acc463dc00e8214d8f89da
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Nov 27 12:09:42 2017 -0500
+
+    adding an event buffer to the gui, which refreshes at interval. incomplete implementation but going somewhere
+
+ main.ml | 68 +++++++++++++++++++++++++++++++++++++++++++++--------------------
+ 1 file changed, 47 insertions(+), 21 deletions(-)
+
+commit 883265273f08195b59c4cb03138c7ff459a912b4
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Nov 26 21:42:22 2017 -0500
+
+    added a help modal, GUI still closes immediately
+
+ main.ml | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+
+commit aaf0d964d00230aed11ffa5eb499065066d08b7c
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Nov 26 20:48:17 2017 -0500
+
+    trying to debug why the window is not opening
+
+ main.ml | 19 ++++++++-----------
+ 1 file changed, 8 insertions(+), 11 deletions(-)
+
+commit cf7779952d39997ca0b38cbd021eb5241889ed4d
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Nov 26 19:56:20 2017 -0500
+
+    futile changes, some documentation for help to reader. running the file now quits the GUI immediately without waiting.
+
+ main.ml  | 129 ++++++++++++++++++++++++++++++++++++++++++++-------------------
+ main.mli |   4 +-
+ 2 files changed, 93 insertions(+), 40 deletions(-)
+
+commit 361a4a06f6dbeac0c85c9a0eda74950d9b53bbef
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Nov 24 16:08:10 2017 -0500
+
+    do not need a gui file. moving the class to main.ml and writing basic implementation for the gui
+
+ gui.ml  | 19 ----------------
+ main.ml | 80 +++++++++++++++++++++++++++++++++++++++++++++++++++++------------
+ 2 files changed, 66 insertions(+), 33 deletions(-)
+
+commit 942a18cab601287c8c96527a0dd7c1d93c762fcf
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Nov 23 17:31:09 2017 -0500
+
+    attempting to write the gui controller/view based on Sitar's project. Broken code right now
+
+ gui.ml   | 19 +++++++++++++++++++
+ main.ml  | 46 +++++++++++++++++++++++++++++++---------------
+ main.mli |  2 +-
+ 3 files changed, 51 insertions(+), 16 deletions(-)
+
+commit acbffa09ffa4e2a3e258ab265657914ea15c4e2f
+Merge: a66809b 0dc65be
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Nov 23 16:56:29 2017 -0500
+
+    fixed merge conflict in README
+
+commit a66809ba2db26292d089347095985c4b6ea41f75
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Thu Nov 23 16:54:22 2017 -0500
+
+    spec for the do' (update state) function
+
+ README.md  |   1 +
+ command.ml |   4 +-
+ state.ml   |   3 +-
+ state.mli  | 168 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 4 files changed, 169 insertions(+), 7 deletions(-)
+
+commit 0dc65be76809575fb1b0bbaec62f34b0a7ea6e84
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Nov 23 02:11:45 2017 -0500
+
+    commented unimplemented controllers to use this file
+
+ main.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c0d0e0562e7920053fd223813725a7f2626910c7
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Thu Nov 23 02:09:32 2017 -0500
+
+    see README for changes; brief: changing controllers file for compilation
+
+ Makefile                            | 10 +++----
+ README.md                           | 34 +++++++++++++++++++-----
+ aicontroller.ml                     | 30 ---------------------
+ controllers.ml                      | 53 +++++++++++++++++++++++++++++++++++++
+ aicontroller.mli => controllers.mli |  3 ---
+ main.ml                             |  1 +
+ 6 files changed, 86 insertions(+), 45 deletions(-)
+
+commit 70e7fd2173a5b9b6b8d57be27ab85c11b8655ef6
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Tue Nov 21 18:01:07 2017 -0500
+
+    added more getter functions to state and updated spec of getter functions
+
+ README.md |   8 +++++
+ state.ml  |  38 +++++++++++++++++++-----
+ state.mli | 100 +++++++++++++++++++++++++++++++++++++++++++++++++++-----------
+ 3 files changed, 120 insertions(+), 26 deletions(-)
+
+commit cd5499cd1b7d1f48dbb618b50c5bf13af1d833ef
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Tue Nov 21 17:05:33 2017 -0500
+
+    Updated function stubs for aicontroller
+
+ aicontroller.ml  | 18 +++++++++++-------
+ aicontroller.mli |  4 ++--
+ 2 files changed, 13 insertions(+), 9 deletions(-)
+
+commit 0854029bfd4c7df8ea21a3494affa6c0c2631f7d
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Sun Nov 19 23:07:54 2017 -0500
+
+    aicontroller.ml
+
+ aicontroller.ml | 26 ++++++++++++++++++++++++++
+ 1 file changed, 26 insertions(+)
+
+commit 0dd58c0106b779238bef21719b286dde78627cf2
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Nov 19 18:53:17 2017 -0500
+
+    fixed making issues
+
+ checktypes.sh | 2 +-
+ state.ml      | 4 ++--
+ state.mli     | 2 ++
+ 3 files changed, 5 insertions(+), 3 deletions(-)
+
+commit c6d78268c6c277f46b352a3dfb31aa6f3b5044df
+Merge: bd71400 b3af347
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Nov 19 18:43:31 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit b3af3471ab8571a38e7a62a471efff847e3c951c
+Merge: 0059627 b1b6c0b
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Nov 19 18:43:14 2017 -0500
+
+    merging files
+
+commit 0059627191184e7f3d315667d162bd2f8c981d4a
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Nov 19 18:42:01 2017 -0500
+
+    updated command and state to reflect format discussed in README.ml
+
+ README.md   |  6 +-----
+ command.ml  | 51 +++++++++++++++++++++++++++++++++++++--------------
+ command.mli | 17 -----------------
+ state.ml    | 33 ++++++++++++++++++++++++++-------
+ state.mli   | 13 +++++++++++++
+ 5 files changed, 77 insertions(+), 43 deletions(-)
+
+commit bd714009ae35aee5a118021c2f0ddb776f663de1
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Nov 19 18:40:49 2017 -0500
+
+    removed unnecessary controller files. We have aicontroller files now
+
+ controller.ml  | 32 --------------------------------
+ controller.mli | 17 -----------------
+ 2 files changed, 49 deletions(-)
+
+commit b1b6c0b0c22374311733b1ed3eba83fed455f516
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Nov 19 18:39:24 2017 -0500
+
+    added other functions in AIControllerFunctions that we discussed in the meeting. See README for more info. The Main GUI will also want to use this kind of setup
+
+ aicontroller.mli | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+commit e15e583facfee6080ff111d6cfb6e558d4e419e4
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Nov 19 18:32:44 2017 -0500
+
+    Updates to README with turntypes, commands, and controller functions
+
+ README.md | 62 +++++++++++++++++++++++++++++++++++++++++++++-----------------
+ 1 file changed, 45 insertions(+), 17 deletions(-)
+
+commit 4e4444ca03e31dddf510bfd8a8543845471a8eac
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Sun Nov 19 17:03:38 2017 -0500
+
+    AIcontroller
+
+ aicontroller.mli | 24 ++++++++++++++++++++++++
+ 1 file changed, 24 insertions(+)
+
+commit 48f52a833ecbc66d391501a9ccc9926749826e6a
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sat Nov 18 22:36:00 2017 -0500
+
+    fixed layout settings and program now takes in inputs
+
+ main.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit a9b28afe868fd1982613bf2763c8bd23fded4778
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Fri Nov 17 19:14:02 2017 -0500
+
+    update README with major design decisions related to turntype, commands, and controller functions
+
+ README.md | 66 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 65 insertions(+), 1 deletion(-)
+
+commit 73b0e29ee5b3ce7ec88edacc518dd934d797b35b
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Nov 17 02:28:15 2017 -0500
+
+    letting some labels to flow right now
+
+ main.ml | 31 +++++++++++++++++++++++--------
+ 1 file changed, 23 insertions(+), 8 deletions(-)
+
+commit b2f41ec9d3009ab0b11b894f2921859c67b31481
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Nov 17 01:42:40 2017 -0500
+
+    removed repl code - gui is obtaining correct input
+
+ main.ml | 52 ++++++++++++----------------------------------------
+ 1 file changed, 12 insertions(+), 40 deletions(-)
+
+commit f3650e3ed5faee2f9127836852f9caf829a5270d
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Nov 17 01:29:30 2017 -0500
+
+    working text-input, reduced code by refactoring and merging functionality
+
+ main.ml | 92 ++++++++++++++++++++++++++++++++---------------------------------
+ 1 file changed, 45 insertions(+), 47 deletions(-)
+
+commit d14c795448059db93685f388a8b9d26253be8fa3
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Nov 17 00:13:53 2017 -0500
+
+    working on including editors for users to feed in names
+
+ main.ml | 51 ++++++++++++++++++++++++++++++++++++++-------------
+ 1 file changed, 38 insertions(+), 13 deletions(-)
+
+commit e599f7593cd766e970ff4e3ffbf8cf520e4f3d05
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Wed Nov 15 18:50:33 2017 -0500
+
+    gitignore
+
+ .gitignore | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 2e9d7911b80071e53ab27f6dd5c9de48a6e8c235
+Author: Junyoung Lim <jl3248@cornell.edu>
+Date:   Wed Nov 15 18:49:53 2017 -0500
+
+    Delete .DS_Store
+
+ .DS_Store | Bin 6148 -> 0 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit bd5bf92c16fa55293bb10a69300379b9efc96dc2
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Wed Nov 15 18:48:22 2017 -0500
+
+    gitignore
+
+ .DS_Store  | Bin 6148 -> 6148 bytes
+ .gitignore |   1 +
+ 2 files changed, 1 insertion(+)
+
+commit 6f2992124223b99e30826123dc4fa5ec8ef0be90
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Wed Nov 15 18:41:13 2017 -0500
+
+    new zip file with update .mli files
+
+ .DS_Store     | Bin 6148 -> 6148 bytes
+ designsrc.zip | Bin 2315 -> 2332 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 8c8e5e9d7200ed424781568a2bd5d08feba55223
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Nov 15 17:24:22 2017 -0500
+
+    added a reset button and a reset option
+
+ main.ml | 33 +++++++++++++++++++++++++++------
+ 1 file changed, 27 insertions(+), 6 deletions(-)
+
+commit 696c2b7e5193b3f459b6ed3f94c4afb34d4ea181
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Wed Nov 15 16:21:30 2017 -0500
+
+    fixed layout issues, abstracted code repetitions and removed some hard-coded values.
+
+ main.ml | 82 +++++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 49 insertions(+), 33 deletions(-)
+
+commit e601308caf29dc5e3f3269f517005aeb9a1cf2cb
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Wed Nov 15 14:32:32 2017 -0500
+
+    First draft of gui to initialize players and controllers with Anmol
+
+ .ocamlinit |  3 +++
+ main.ml    | 68 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 2 files changed, 70 insertions(+), 1 deletion(-)
+
+commit 65b825b6105904187037add9a9599d371076b2f4
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Nov 13 18:31:30 2017 -0500
+
+    init requirement for utop
+
+ .ocamlinit | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 676773389e3fe8147284e9d140b23e66132ed1ed
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Nov 13 18:31:00 2017 -0500
+
+    skeleton for controller
+
+ controller.ml | 32 ++++++++++++++++++++++++++++++++
+ 1 file changed, 32 insertions(+)
+
+commit fdd88f3e9571a44aa31205e077ed0ca92ec66a9d
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Nov 13 18:30:28 2017 -0500
+
+    just to pass make
+
+ command.ml | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+
+commit a39f4adca5826d211fec11d77d8d70763ce455bd
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Nov 13 18:30:12 2017 -0500
+
+    skeleton of the functions to pass make
+
+ state.ml  | 20 ++++++++++++++++++++
+ state.mli |  8 ++++----
+ 2 files changed, 24 insertions(+), 4 deletions(-)
+
+commit cca5d098cbd68b4c6f2e1568ba73a471eeb7bc43
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Nov 13 18:29:37 2017 -0500
+
+    updated main.mli and main.ml to have a basic implementation of the game loop - asking for players and their types on the commandline
+
+ main.ml  | 48 ++++++++++++++++++++++++++++++++++++++++++++++++
+ main.mli |  2 +-
+ 2 files changed, 49 insertions(+), 1 deletion(-)
+
+commit ff3b5dbfc0b6e83c133989cf4f5eb12f6b3e223a
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Mon Nov 13 17:35:35 2017 -0500
+
+    zip file for mli files
+
+ designsrc.zip | Bin 0 -> 2315 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 921b28b7b4539d6dc5e0548156b57c175f33345e
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Nov 12 16:40:27 2017 -0500
+
+    updated names in state.mli to be consistent with data structures in state.ml
+
+ state.ml  |  2 ++
+ state.mli | 31 +++++++++++++++++--------------
+ 2 files changed, 19 insertions(+), 14 deletions(-)
+
+commit cfa57e6fd05e09d2064b45bccbff17672f7998f2
+Merge: c1f6d49 8f20b1d
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Nov 12 16:27:33 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 8f20b1dd6f70c6fdd213750a1bba713a5ca62f55
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Fri Nov 10 19:14:28 2017 -0500
+
+    Copied data structures from the design doc
+
+ state.ml  | 62 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ state.mli | 43 +++----------------------------------------
+ 2 files changed, 65 insertions(+), 40 deletions(-)
+
+commit c1f6d49cad0dfddcb07732cca8278c2afbf369b4
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Nov 10 18:56:48 2017 -0500
+
+    don't need open directives in mli files
+
+ controller.mli | 10 +++-------
+ main.mli       |  5 +----
+ state.mli      |  2 +-
+ 3 files changed, 5 insertions(+), 12 deletions(-)
+
+commit 819afc6d399e4e97fc7d95561e9715de872ee1aa
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Fri Nov 10 18:31:53 2017 -0500
+
+    moved controller type variant to state.mli as it needs it
+
+ main.mli  |  7 -------
+ state.mli | 10 ++++++++--
+ 2 files changed, 8 insertions(+), 9 deletions(-)
+
+commit 1cb9c84c4f6f21539c539d89f1d9b410497ed515
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Fri Nov 10 18:26:36 2017 -0500
+
+    updated gitignore
+
+ .gitignore | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 202af9c09cc3c4fff503c4a9f0403aa0e50a1680
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Fri Nov 10 18:07:52 2017 -0500
+
+    spec for functions in state.mli
+
+ state.mli | 19 ++++++++++++++++++-
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+
+commit 9a0b8a33f1636e4a2beb01d27d88e86cba9d3dfe
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Fri Nov 10 17:41:40 2017 -0500
+
+    added dependence on other modules
+
+ main.mli | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 2af2bb03fe1c1b006c02272b9f2e1dae82f1ca86
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Mon Nov 6 19:43:44 2017 -0500
+
+    state
+
+ state.mli | 31 ++++++++++++++++++++++++++++++-
+ 1 file changed, 30 insertions(+), 1 deletion(-)
+
+commit 4749b33b1ab1dc235c7174e05ea5333badc930ce
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Mon Nov 6 19:01:01 2017 -0500
+
+    updated Makefile to support zips, make zip for everything, make zipmli to zip the design mlis
+
+ Makefile | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 599baeb8a2c312f3408065c264a89f67f8ebf620
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Nov 6 18:58:18 2017 -0500
+
+    Open statements
+
+ controller.mli | 6 +++---
+ state.mli      | 4 +++-
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+
+commit ad336ae28e1b423b2f7be21c55f060c7adf7d2d0
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Nov 6 18:56:58 2017 -0500
+
+    Removing circular dependencies
+
+ command.mli    | 17 +++++++++++++++++
+ controller.mli | 19 +------------------
+ state.mli      |  4 ++--
+ 3 files changed, 20 insertions(+), 20 deletions(-)
+
+commit 105d51e25d2e901cc909f28dd7f81fce9d1e9949
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Mon Nov 6 18:39:13 2017 -0500
+
+    added new constructor for after_command
+
+ controller.mli | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 0386320e0ebadbf11a6d9266bcdaf6ab1e543a35
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Mon Nov 6 14:34:37 2017 -0500
+
+    state.mli without comments
+
+ state.mli | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit 3421c97038630d16678edeccbf13385832da0804
+Merge: c6e8c13 fa9df6e
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sun Nov 5 19:47:20 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit c6e8c134ab0d9f95a55ec7ecaaea23961f825aa7
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sun Nov 5 19:47:06 2017 -0500
+
+    n/a
+
+ controller.mli | 15 ++++++++++-----
+ 1 file changed, 10 insertions(+), 5 deletions(-)
+
+commit fa9df6e18d0326e40210ce4b59611d118b41b7e4
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Sun Nov 5 17:44:04 2017 -0500
+
+    ds_store
+
+ .DS_Store | Bin 6148 -> 6148 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 6fc6365ba4bad94d7eb6bbb49ddcf70f6c720179
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Sun Nov 5 17:42:36 2017 -0500
+
+    gitignore and state.mli
+
+ .gitignore |  1 +
+ state.mli  | 22 ++++++++++++++++++++++
+ 2 files changed, 23 insertions(+)
+
+commit 65b341d9130f5a31590e9668df6a689fe3cb9192
+Merge: 344cd7c fb40fe0
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Nov 5 17:38:09 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 344cd7cd4235507d5e2bdc58bcda8310c46d3e9b
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Nov 5 17:37:57 2017 -0500
+
+    finish defining functions for main.mli
+
+ .DS_Store | Bin 0 -> 6148 bytes
+ main.mli  |   5 ++++-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit fb40fe09f6cc245d0258d0a130cdfaa0e227c0ef
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Sun Nov 5 17:37:29 2017 -0500
+
+    minor changes to state.mli
+
+ state.mli | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 42e57e057661cbb9aa515cec1416ff31d6f53fde
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Nov 5 17:34:31 2017 -0500
+
+    renamed files to lowercase
+
+ Controller.mli => controller.mli | 0
+ Main.mli => main.mli             | 0
+ State.mli => state.mli           | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit ea366a380d7a6f002000c6e79ce6f966a2f82f9c
+Merge: e2289f4 8a6381b
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Nov 5 17:32:02 2017 -0500
+
+    trying to resolve merge conflict and change to lowercase
+
+commit 8a6381b93d2d0aae6df7c4413dece8b71ba0fad4
+Author: Jehron Petty <jwp263@cornell.edu>
+Date:   Sun Nov 5 17:27:36 2017 -0500
+
+    lowercase controller file
+
+ Controller.mli | 31 +++++++++++++++++++++++++++++++
+ Main.mli       |  9 ---------
+ 2 files changed, 31 insertions(+), 9 deletions(-)
+
+commit e2289f427b3dbcdcaf6d9b7339b6e85dc4e15660
+Merge: 636b7ae 419b108
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Nov 5 17:26:14 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit 419b10824f8824dd16fb624eb59b46d8bb955307
+Author: JaredLim <jylim9823@gmail.com>
+Date:   Sun Nov 5 17:26:03 2017 -0500
+
+    state.mli
+
+ .merlin   | 1 +
+ State.mli | 7 +++++++
+ _tags     | 2 +-
+ 3 files changed, 9 insertions(+), 1 deletion(-)
+
+commit 636b7ae4ab1af900b70dfba15d278026ae6b3fc1
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Nov 5 17:26:01 2017 -0500
+
+    initial functions for main.mli
+
+ Main.mli | 31 ++++++++++++++++++++++---------
+ 1 file changed, 22 insertions(+), 9 deletions(-)
+
+commit 3d2556cef37e7953a0cb8421800cac37d30286f2
+Merge: a71a95f 23e4512
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Nov 5 17:10:02 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/ak2426/cs3110-final
+
+commit a71a95f9497e1aa75364ee2467a23064359bbb4c
+Author: anmolkabra <ak2426@cornell.edu>
+Date:   Sun Nov 5 17:09:55 2017 -0500
+
+    initial checkers and makefile -- running make won't compile since our skeleton is empty
+
+ .merlin       |  5 +++++
+ Makefile      | 18 ++++++++++++++++++
+ _tags         |  1 +
+ checkenv.sh   | 49 +++++++++++++++++++++++++++++++++++++++++++++++++
+ checktypes.sh | 25 +++++++++++++++++++++++++
+ 5 files changed, 98 insertions(+)
+
+commit 23e4512d4a4a98be514149552a6c590be32cd035
+Author: Marina Chang <mpc84@cornell.edu>
+Date:   Sun Nov 5 17:01:12 2017 -0500
+
+    beginning of main.mli
+
+ Main.mli | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+commit eaafa15bc81e57e12c47b8c8c4183c6398601100
+Author: Jehron Warren Petty <jwp263@cornell.edu>
+Date:   Sun Nov 5 16:51:37 2017 -0500
+
+    Create Main.mli
+
+ Main.mli | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 9c8d0cc2f18a8245ec7f7d308174f41609d71940
+Author: Jehron Warren Petty <jwp263@cornell.edu>
+Date:   Sun Nov 5 16:51:22 2017 -0500
+
+    Create State.mli
+
+ State.mli | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 6edeeb18a87848a4b4d7dbbf743f216e794a007e
+Author: Jehron Warren Petty <jwp263@cornell.edu>
+Date:   Sun Nov 5 16:51:12 2017 -0500
+
+    Create Controller.mli
+
+ Controller.mli | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 688a9c50fe6d2924a048306f214f46b376f789ed
+Author: Anmol Kabra <ak2426@cornell.edu>
+Date:   Sun Nov 5 16:43:56 2017 -0500
+
+    Initial commit
+
+ .gitignore | 20 ++++++++++++++++++++
+ README.md  |  1 +
+ 2 files changed, 21 insertions(+)

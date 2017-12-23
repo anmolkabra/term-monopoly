@@ -1,0 +1,254 @@
+{
+  "board": [
+    {"space": "Property", "id": "introduction to 3110"},
+    {"space": "Property", "id": "functions"},
+    {"space": "Property", "id": "lists"},
+    {"space": "Property", "id": "data types"},
+    {"space": "Transaction", "amount": -100, "description": "Labor Day: Collect $100"},
+    {"space": "Property", "id": "variants"},
+    {"space": "Property", "id": "higher-order programming"},
+    {"space": "CardSpace", "deck": "Assignments"},
+    {"space": "Property", "id": "modules"},
+    {"space": "Property", "id": "functors"},
+    {"space": "Property", "id": "abstraction and specification"},
+    {"space": "Property", "id": "af and ri"},
+    {"space": "Property", "id": "testing"},
+    {"space": "CardSpace", "deck": "Assignments"},
+    {"space": "Property", "id": "streams and laziness"},
+    {"space": "Property", "id": "balanced trees"},
+    {"space": "Property", "id": "mutable data types"},
+    {"space": "Transaction", "amount": -300, "description": "Fall Break: Collect $300"},
+    {"space": "Property", "id": "prelim"},
+    {"space": "Jail"},
+    {"space": "Property", "id": "hash tables"},
+    {"space": "CardSpace", "deck": "Assignments"},
+    {"space": "Property", "id": "interpreters"},
+    {"space": "Property", "id": "substitution model"},
+    {"space": "Property", "id": "environment model"},
+    {"space": "CardSpace", "deck": "Assignments"},
+    {"space": "Property", "id": "programming in coq"},
+    {"space": "Property", "id": "logic in coq"},
+    {"space": "Property", "id": "proofs are programs"},
+    {"space": "Property", "id": "induction in coq"},
+    {"space": "Property", "id": "verification in coq"},
+    {"space": "CardSpace", "deck": "Assignments"},
+    {"space": "Property", "id": "futures"},
+    {"space": "Property", "id": "monads"},
+    {"space": "Transaction", "amount": -500, "description": "Thanksgiving Break: Collect $500"},
+    {"space": "Property", "id": "objects"},
+    {"space": "Property", "id": "victory lap"},
+    {"space": "Property", "id": "final"},
+    {"space": "ToJail"},
+    {"space": "CardSpace", "deck": "Assignments"}
+  ],
+  "properties": [{
+    "id": "introduction to 3110",
+    "group": "Functional Programming",
+    "cost": 10,
+    "rent": [8,220,700],
+    "dev_cost": [82,210]
+  },{
+    "id": "functions",
+    "group": "Functional Programming",
+    "cost": 20,
+    "rent": [8,240,700],
+    "dev_cost": [82,410]
+  },{
+    "id": "lists",
+    "group": "Functional Programming",
+    "cost": 30,
+    "rent": [8,290,700],
+    "dev_cost": [82,910]
+  },{
+    "id": "data types",
+    "group": "Functional Programming",
+    "cost": 40,
+    "rent": [8,310,700],
+    "dev_cost": [83,110]
+  },{
+    "id": "variants",
+    "group": "Functional Programming",
+    "cost": 50,
+    "rent": [9,50,700],
+    "dev_cost": [90,510]
+  },{
+    "id": "higher-order programming",
+    "group": "Functional Programming",
+    "cost": 60,
+    "rent": [9,70,700],
+    "dev_cost": [90,710]
+  },{
+    "id": "modules",
+    "group": "Modular Programming",
+    "cost": 70,
+    "rent": [9,120,800],
+    "dev_cost": [91,210]
+  },{
+    "id": "functors",
+    "group": "Modular Programming",
+    "cost": 80,
+    "rent": [9,140,800],
+    "dev_cost": [91,410]
+  },{
+    "id": "abstraction and specification",
+    "group": "Modular Programming",
+    "cost": 90,
+    "rent": [9,190,800],
+    "dev_cost": [91,910]
+  },{
+    "id": "af and ri",
+    "group": "Modular Programming",
+    "cost": 100,
+    "rent": [9,210,800],
+    "dev_cost": [92,110]
+  },{
+    "id": "testing",
+    "group": "Modular Programming",
+    "cost": 110,
+    "rent": [9,260,800],
+    "dev_cost": [92,610]
+  },{
+    "id": "streams and laziness",
+    "group": "Data Structures",
+    "cost": 120,
+    "rent": [9,280,900],
+    "dev_cost": [92,810]
+  },{
+    "id": "balanced trees",
+    "group": "Data Structures",
+    "cost": 130,
+    "rent": [10,30,900],
+    "dev_cost": [10,310]
+  },{
+    "id": "mutable data types",
+    "group": "Data Structures",
+    "cost": 140,
+    "rent": [10,50,900],
+    "dev_cost": [10,510]
+  },{
+    "id": "prelim",
+    "group": "Railroad",
+    "cost": 530,
+    "rent": [200,400],
+    "dev_cost": []
+  },{
+    "id": "hash tables",
+    "group": "Data Structures",
+    "cost": 150,
+    "rent": [10,170,900],
+    "dev_cost": [10,710]
+  },{
+    "id": "interpreters",
+    "group": "Interpreters",
+    "cost": 160,
+    "rent": [10,190,1000],
+    "dev_cost": [10,910]
+  },{
+    "id": "substitution model",
+    "group": "Interpreters",
+    "cost": 170,
+    "rent": [10,240,1000],
+    "dev_cost": [10,410]
+  },{
+    "id": "environment model",
+    "group": "Interpreters",
+    "cost": 180,
+    "rent": [10,260,1000],
+    "dev_cost": [10,610]
+  },{
+    "id": "programming in coq",
+    "group": "Formal Methods",
+    "cost": 190,
+    "rent": [10,310,1100],
+    "dev_cost": [10,110]
+  },{
+    "id": "logic in coq",
+    "group": "Formal Methods",
+    "cost": 200,
+    "rent": [11,20,1100],
+    "dev_cost": [10,210]
+  },{
+    "id": "proofs are programs",
+    "group": "Formal Methods",
+    "cost": 210,
+    "rent": [11,70,1100],
+    "dev_cost": [10,710]
+  },{
+    "id": "induction in coq",
+    "group": "Formal Methods",
+    "cost": 220,
+    "rent": [11,90,1100],
+    "dev_cost": [10,910]
+  },{
+    "id": "verification in coq",
+    "group": "Formal Methods",
+    "cost": 230,
+    "rent": [11,140,1100],
+    "dev_cost": [11,410]
+  },{
+    "id": "futures",
+    "group": "Advanced Topics",
+    "cost": 240,
+    "rent": [11,160,1200],
+    "dev_cost": [11,610]
+  },{
+    "id": "monads",
+    "group": "Advanced Topics",
+    "cost": 250,
+    "rent": [11,210,1200],
+    "dev_cost": [12,110]
+  },{
+    "id": "objects",
+    "group": "Advanced Topics",
+    "cost": 260,
+    "rent": [11,280,1200],
+    "dev_cost": [12,810]
+  },{
+    "id": "victory lap",
+    "group": "THE END",
+    "cost": 270,
+    "rent": [11,300,1300],
+    "dev_cost": [13,310]
+  },{
+    "id": "final",
+    "group": "Railroad",
+    "cost": 900,
+    "rent": [200,400],
+    "dev_cost": []
+  }],
+  "decks": [{
+    "id": "Assignments",
+    "cards": [{
+      "description": "A0: Go To Introduction to 3110",
+      "effect": "GoToSpace",
+      "id": "introduction to 3110"
+    },{
+      "description": "A2: Go To Functions",
+      "effect": "GoToSpace",
+      "id": "functions"
+    },{
+      "description": "A2: Go To Modules",
+      "effect": "GoToSpace",
+      "id": "modules"
+    },{
+      "description": "A3: Go To Balanced Trees",
+      "effect": "GoToSpace",
+      "id": "balanced trees"
+    },{
+      "description": "A4: Go To Interpreters",
+      "effect": "GoToSpace",
+      "id": "interpreters"
+    },{
+      "description": "A5: Go To Logic in Coq",
+      "effect": "GoToSpace",
+      "id": "logic in coq"
+    },{
+      "description": "Final Project: Go To Testing",
+      "effect": "GoToSpace",
+      "id": "testing"
+    }]
+  }],
+  "start_money": 3110,
+  "pass_go_amount": 42,
+  "jail_fee_amount": 7
+}

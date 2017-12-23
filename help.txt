@@ -1,0 +1,77 @@
+"Rules\n
+\n
+THE BOARD\n
+The file used specifies the board spaces and their order; the cost to buy and\n
+develop properties as well as their rent at each development stage; the decks\n
+and cards in each deck; and the amount of money each player starts with, gets\n
+for completing a loop around the board, and the fee required to leave jail.\n
+\n
+THE OBJECT OF THE GAME\n
+Buy and develop properties in order to collect money from other players. You win\n
+when all other players have gone bankrupt.\n
+ON YOUR TURN\n
+Before you roll to move, you may complete the following actions as many times\n
+as you would like on your turn:\n
+  Sell a property: If selling a developed property, the development stage will\n
+      decrease by 1 and you will receive half of the cost paid to develop to\n
+      that stage. If selling an undeveloped property, the property will be\n
+      given to the bank and you will receive half of the cost to buy that\n
+      property.\n
+  Develop a property: You may develop properties of Color groups when you own\n
+      all the properties in that group. Properties of the Railroad group\n
+      have a development stage based on the number of properties in the group\n
+      that you own, and cannot be developed by paying money. You must have\n
+      enough money to pay for the development of the property you select.\n
+  Make a trade offer: You may offer an amount of money and a set of properties\n
+      to another player, and request an amount of money and set of properties\n
+      from another player. The request will then be set to the other player to\n
+      accept or decline.
+Once you decide to roll, the rest of your turn depends on what kind of space\n
+you land on:\n
+  Property space:\n
+    - If the property is owned by the Bank, you can decide to buy the property\n
+      for the displayed cost (you must have enough money to pay the cost) or to\n
+      not buy the property.
+    - If the property is owned by another player:
+      - If that other player is in jail, you do not owe any rent.
+      - Otherwise, you must pay the rent. You may sell properties in order to\n
+        have enough money to pay rent. If after selling properties you still do\n
+        not have enough money to pay rent, you must go bankrupt (lose the game).\n
+    - If you own the property, you stay without paying rent.\n
+  Transaction space:\n
+    You may be required to pay money to the bank, or you may receive money from\n
+    the bank. You may sell properties in order to have enough money to pay the\n
+    bank. If after selling properties you still do not have enough money to pay\n
+    the bank, you must go bankrupt (lose the game).\n
+  Card space:\n
+    Draw a card. The card will be of the following type:
+    - The card may instruct you to go to a property space, in which case you\n
+      move and your turn continues the same as if you had landed on that space\n
+      (see Property space above).\n
+    - The card may instruct you to conduct a transaction with the bank.\m
+      (see Transaction space above).\n
+    - The card may be a Get Out Of Jail Free card, which you hold onto to use\n
+      when you are in jail.\n
+  Jail (just visiting):\n
+    If you land on the jail space, you are just visiting (not in jail) and your\n
+    turn ends.\n
+  Go To Jail:\n
+    You are sent to jail (in jail), and your turn ends.\n
+IN JAIL\n
+While you are in jail, you cannot collect rent from players who land on your\n
+properties, you cannot sell or develop properties, and you cannot make trade\n
+offers (although you may be offered trades by other players which you can accept\n
+or reject). On your turn you may do the following actions to attempt to leave jail:\n
+  Use Get Out of Jail Free Card: If you have a get out of jail free card, you\n
+    can use it to leave jail, and you get to start your turn from just visiting\n
+    jail.\n
+  Pay Fee: If you have enough money, you can pay a fee (specified by the game\n
+    which you are playing) to leave jail. You leave jail and your turn ends.\n
+  Roll: If you roll doubles (two of the same number), you leave jail and move\n
+    the number of spaces that you rolled. Your turn proceeds based on which\n
+    space you land on (see above). If you do not roll doubles, you remain\n
+    in jail and your turn ends.\n
+ROLLING DOUBLES\n
+If you roll two of the same number (doubles) and you are not in jail, you get\n
+to take another turn. However, if you roll doubles three times in a row, you\n
+are immediately sent to jail.\n

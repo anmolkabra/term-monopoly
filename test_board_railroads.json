@@ -1,0 +1,31 @@
+{
+  "board": [
+    {"space": "Jail"},
+    {"space": "Property", "id": "railroad1"},
+    {"space": "Property", "id": "railroad2"},
+    {"space": "Property", "id": "railroad3"}
+  ],
+  "properties": [{
+    "id": "railroad1",
+    "group": "Railroad",
+    "cost": 100,
+    "rent": [25,50,75],
+    "dev_cost": []
+  },{
+    "id": "railroad2",
+    "group": "Railroad",
+    "cost": 100,
+    "rent": [25,50,75],
+    "dev_cost": []
+  },{
+    "id": "railroad3",
+    "group": "Railroad",
+    "cost": 100,
+    "rent": [25,50,75],
+    "dev_cost": []
+  }],
+  "decks": [],
+  "start_money": 1500,
+  "pass_go_amount": 200,
+  "jail_fee_amount": 50
+}

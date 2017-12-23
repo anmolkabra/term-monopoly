@@ -1,0 +1,18 @@
+{
+  "board": [
+    {"space": "Jail"},
+    {"space": "CardSpace", "deck": "Chance"},
+    {"space": "ToJail"}
+  ],
+  "properties": [],
+  "decks": [{
+    "id": "Chance",
+    "cards": [{
+      "description": "Get Out of Jail Free",
+      "effect": "GetOutOfJail"
+    }]
+  }],
+  "start_money": 1500,
+  "pass_go_amount": 200,
+  "jail_fee_amount": 50
+}

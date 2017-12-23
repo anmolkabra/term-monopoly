@@ -1,0 +1,49 @@
+{
+  "board": [
+    {"space": "Property", "id": "prop1"},
+    {"space": "Transaction", "amount": 200, "description": "Pay $200"},
+    {"space": "Jail"},
+    {"space": "ToJail"},
+    {"space": "CardSpace", "deck": "Chance"},
+    {"space": "Property", "id": "railroad"},
+    {"space": "Property", "id": "utility"}
+  ],
+  "properties": [{
+    "id": "prop1",
+    "group": "Purple",
+    "cost": 100,
+    "rent": [5,10,15,20],
+    "dev_cost": [100,200,300]
+  },{
+    "id": "railroad",
+    "group": "Railroad",
+    "cost": 200,
+    "rent": [20],
+    "dev_cost": []
+  },
+  {
+    "id": "utility",
+    "group": "Utility",
+    "cost": 300,
+    "rent": [30],
+    "dev_cost": []
+  }],
+  "decks": [{
+    "id": "Chance",
+    "cards": [{
+      "description": "Go To Prop1",
+      "effect": "GoToSpace",
+      "id": "prop1"
+    },{
+      "description": "Get $200",
+      "effect": "ExchangeBank",
+      "amount": 200
+    },{
+      "description": "Get Out of Jail Free",
+      "effect": "GetOutOfJail"
+    }]
+  }],
+  "start_money": 1500,
+  "pass_go_amount": 0,
+  "jail_fee_amount": 50
+}
