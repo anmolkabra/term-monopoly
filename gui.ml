@@ -1369,7 +1369,7 @@ are immediately sent to jail.\n" in
     let help_str_lst = String.split_on_char '\n' help_message in
     (* this state is a dummy state *)
     let test_state = State.(init_state
-      (Yojson.Basic.from_file "boards/test_board.json") ["a", GUI] ~random:true) in
+      (Yojson.Basic.from_file ("boards" ^ Filename.dir_sep ^ "test_board.json")) ["a", GUI] ~random:true) in
     let (scr_box, adj) = self#scrollable_box `Message help_str_lst test_state in
     help_box#add scr_box;
 

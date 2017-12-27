@@ -65,7 +65,7 @@ let main sim_fname =
         | name::cnt::[] -> name, controller_of_string cnt
         | _ -> failwith "Badly formatted players and controllers") 
       players in
-    let s = State.init_state (Yojson.Basic.from_file ("boards/" ^ json_fname)) formatted_players ~random:true in
+    let s = State.init_state (Yojson.Basic.from_file ("boards" ^ Filename.dir_sep ^ json_fname)) formatted_players ~random:true in
     close_in fchan;
     run_sim num_sims s
   with
