@@ -59,7 +59,7 @@ The following small testing files are also available:
 - test_board_railroads.json - (file with only railroads and jail)
 - test_board_jail.json - (file with only spaces and cards related to jail)
 
-All the game board files are required to be in the `boards/` directory.
+All the game board files are **required** to be in the `boards/` directory.
 
 The players for the game can be selected from the following
 types of controllers:
@@ -74,11 +74,12 @@ types of controllers:
 In order to simulate AI game play, follow the make command written in the bottom of this readme.
 
 Upon starting the simulation, the simulation module will ask for a simulation file.
+
 A simulation file should follow the following template:
 
 ```
 [json file name]
-[number of sims]
+[number of simulations]
 [number of players]
 [player1 type]:[AI level]
 [player2 type]:[AI level]
@@ -96,8 +97,8 @@ battleship:AI1
 racecar:AI2
 ```
 
-All the simulation files are required to be in the `sim_files/` directory, and
-all the simulation results are suggested to be in the `sim_results/` directory.
+All the simulation files are **required** to be in the `sim_files/` directory, and
+all the simulation results are **suggested** to be in the `sim_results/` directory.
 
 ## Makefile usage
 
