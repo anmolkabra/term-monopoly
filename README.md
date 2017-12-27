@@ -1,6 +1,10 @@
 # term-monopoly
 
-A [CS 3110](https://www.cs.cornell.edu/courses/cs3110/2017fa/) project by [Anmol Kabra](https://anmolkabra.com), [Jehron Petty](https://github.com/JehronPett), [Jared Lim](https://github.com/JunyoungLim), and [Marina Chang](mailto:mpc84@cornell.edu).
+A [CS 3110](https://www.cs.cornell.edu/courses/cs3110/2017fa/) project by
+* [Anmol Kabra](https://anmolkabra.com): Frontend GUI Developer
+* [Jehron Petty](https://github.com/JehronPett): Frontend GUI Developer
+* [Jared Junyoung Lim](https://github.com/JunyoungLim): Backend AI Developer
+* [Marina Chang](mailto:mpc84@cornell.edu): Backend State Developer
 
 Special thanks to [CS 3110 Fall 2017](https://www.cs.cornell.edu/courses/cs3110/2017fa/) course staff for the course.
 
