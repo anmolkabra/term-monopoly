@@ -1,0 +1,5 @@
+3110.json
+1000
+2
+battleship:AI1
+racecar:AI2

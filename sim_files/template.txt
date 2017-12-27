@@ -1,0 +1,7 @@
+# json file name. e.g. classic.json
+# num of sims. e.g. 100
+# num of players. e.g. 2
+# player1. e.g. battleship:AI1
+# player2. e.g. racecar:AI2
+
+# note: only AIs are accepted, be aware of the formatting. The code is very hacky for simulations

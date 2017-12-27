@@ -12,3 +12,6 @@ clean:
 
 install-dep:
 	opam install lwt yojson camomile lambda-term oUnit
+
+sim:
+	ocamlbuild -use-ocamlfind simulation.byte && ./simulation.byte

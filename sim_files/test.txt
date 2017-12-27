@@ -1,0 +1,5 @@
+classic.json
+1000
+2
+battleship:AI2
+racecar:AI3
