@@ -39,7 +39,7 @@ and handle_pselect g p_cnts t =
     begin
       try
         if List.length p_cnts = 0 then raise (Failure "Select at least one player.") else ();
-        let s = State.init_state (Yojson.Basic.from_file fname) p_cnts ~random:true in
+        let s = State.init_state (Yojson.Basic.from_file ("boards/" ^ fname)) p_cnts ~random:true in
         let g' = {g with s = Some s} in
         g'.gui#update_state (Some s);
         g'.gui#activate_pdisplay_modal ();

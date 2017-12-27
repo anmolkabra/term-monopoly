@@ -2,10 +2,10 @@ open OUnit2
 open State
 open Command
 
-let test_board = Yojson.Basic.from_file "test_board.json"
-let test_board_2 = Yojson.Basic.from_file "test_board_2.json"
-let test_board_r = Yojson.Basic.from_file "test_board_railroads.json"
-let test_board_j = Yojson.Basic.from_file "test_board_jail.json"
+let test_board = Yojson.Basic.from_file "boards/test_board.json"
+let test_board_2 = Yojson.Basic.from_file "boards/test_board_2.json"
+let test_board_r = Yojson.Basic.from_file "boards/test_board_railroads.json"
+let test_board_j = Yojson.Basic.from_file "boards/test_board_jail.json"
 
 let one_player = [("p1",GUI)]
 let two_players = [("p1",GUI);("p2",AI1)]
