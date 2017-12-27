@@ -59,6 +59,8 @@ The following small testing files are also available:
 - test_board_railroads.json - (file with only railroads and jail)
 - test_board_jail.json - (file with only spaces and cards related to jail)
 
+All the game board files are **required** to be in the `boards/` directory.
+
 The players for the game can be selected from the following
 types of controllers:
 - Human Player - uses key inputs to determine which actions to take
@@ -66,11 +68,43 @@ types of controllers:
 - AI2 - uses a smarter AI to determine which actions to take
 - AI3 - uses a complex AI to determine which actions to take
 
+
+## How to simulate AI's?
+
+In order to simulate AI game play, follow the make command written in the bottom of this readme.
+
+Upon starting the simulation, the simulation module will ask for a simulation file.
+
+A simulation file should follow the following template:
+
+```
+[json file name]
+[number of simulations]
+[number of players]
+[player1 type]:[AI level]
+[player2 type]:[AI level]
+[player3 type]:[AI level] # optional
+...
+[player8 type]:[AI level] # optional
+```
+
+One example of simulation file can be:
+```
+classic.json
+1000
+2
+battleship:AI1
+racecar:AI2
+```
+
+All the simulation files are **required** to be in the `sim_files/` directory, and
+all the simulation results are **suggested** to be in the `sim_results/` directory.
+
 ## Makefile usage
 
 1. `make` or `make game` -> Make and run the game.
 2. `make check` -> Check the OPAM env and types, and compile the game.
 3. `make clean` -> Clean the `_build/` directory.
 4. `make test` -> Make the test file and run it.
-5. `make sim` -> Simulate the game using AI
+5. `make sim` -> Simulate the game using AI.
 6. `make install-dep` -> Install dependencies for this project.
