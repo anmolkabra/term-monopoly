@@ -106,5 +106,5 @@ all the simulation results are **suggested** to be in the `sim_results/` directo
 2. `make check` -> Check the OPAM env and types, and compile the game.
 3. `make clean` -> Clean the `_build/` directory.
 4. `make test` -> Make the test file and run it.
-5. `make sim` -> Simulate the game using AI
+5. `make sim` -> Simulate the game using AI.
 6. `make install-dep` -> Install dependencies for this project.
