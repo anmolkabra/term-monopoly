@@ -12,18 +12,18 @@ else
 fi
 
 OCAMLC_VERSION="$(ocamlc --version 2>&1)"
-if [[ "$OCAMLC_VERSION" == "4.05.0" ]]; then
-  echo "OCaml compiler version 4.05.0 is active.  Good."
+if [[ "$OCAMLC_VERSION" == "4.06.0" ]]; then
+  echo "OCaml compiler version 4.06.0 is active.  Good."
 else
-  echo "OCaml compiler version 4.05.0 is NOT active.  This is bad."
+  echo "OCaml compiler version 4.06.0 is NOT active.  This is bad."
   environment=bad
 fi
 
 OUNIT_VERSION="$(opam info ounit -f installed-version 2>&1)"
-if [[ "$OUNIT_VERSION" =~ "2.0.0" && "$OUNIT_VERSION" =~ "4.05.0" ]]; then
-  echo "OUnit version 2.0.0 is active.  Good."
+if [[ "$OUNIT_VERSION" =~ "2.0.7" && "$OUNIT_VERSION" =~ "4.06.0" ]]; then
+  echo "OUnit version 2.0.7 is active.  Good."
 else
-  echo "OUnit version 2.0.0 is NOT active.  This is bad."
+  echo "OUnit version 2.0.7 is NOT active.  This is bad."
   environment=bad
 fi
 

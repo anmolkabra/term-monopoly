@@ -22,10 +22,12 @@ Salient features:
 
 ## How to play?
 
-**Tested with OPAM 1.2.2 and OCaml 4.05.0 compiler on Linux and OSX platforms.**
+**UPDATE:** The game has switched to compiler version 4.06.0 and OUnit 2.0.7.
+
+**Tested with OPAM 1.2.2, OCaml 4.06.0 compiler, and OUnit 2.0.7 on Linux and OSX platforms.**
 
 ### To install dependencies:
-Install OPAM version 1.2.2 and OCaml 4.05.0 compiler as described [here](http://www.cs.cornell.edu/courses/cs3110/2017fa/install.html). The game _might_ work on other versions as well. Then install the third-party dependencies for the game (most should have been installed by the OCaml install as described in that page):
+Install OPAM version 1.2.2 and OCaml 4.06.0 compiler as described [here](http://www.cs.cornell.edu/courses/cs3110/2018sp/install.html). The game _might_ work on other versions as well. Then install the third-party dependencies for the game (most should have been installed by the OCaml install as described in that page):
 ```bash
 make install-dep
 ```
